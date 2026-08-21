@@ -1,5 +1,4 @@
 accounts.scm-us.tiktok.com
-ads-service.tiktok.com
 apac-marketing.tiktok.com
 developers.tiktok.com
 eu.safety-enforcement.tiktok.com
@@ -7,7 +6,6 @@ in.tiktok.com
 live-backstage.tiktok.com
 music.tiktok.com
 newsroom.tiktok.com
-notifications.tiktok.com
 safety-enforcement.tiktok.com
 scm-us.tiktok.com
 seller-id.tiktok.com
