@@ -1,0 +1,116 @@
+{
+  "hosts": {
+    "developers.tiktok.com": {
+      "canonical_name": null,
+      "consecutive_negative_checks": 0,
+      "ever_validated": false,
+      "expired_at": null,
+      "first_seen": "2026-08-21T07:37:46Z",
+      "hostname": "developers.tiktok.com",
+      "ipv4": [],
+      "last_check": null,
+      "last_negative": null,
+      "last_result": "UNTESTED",
+      "last_success": null,
+      "negative_observations": 0,
+      "negative_since": null,
+      "quarantined_at": null,
+      "resolver_results": {},
+      "safety_reason": null,
+      "sources": [
+        "bootstrap_seed"
+      ],
+      "status": "pending"
+    },
+    "newsroom.tiktok.com": {
+      "canonical_name": null,
+      "consecutive_negative_checks": 0,
+      "ever_validated": false,
+      "expired_at": null,
+      "first_seen": "2026-08-21T07:37:46Z",
+      "hostname": "newsroom.tiktok.com",
+      "ipv4": [],
+      "last_check": null,
+      "last_negative": null,
+      "last_result": "UNTESTED",
+      "last_success": null,
+      "negative_observations": 0,
+      "negative_since": null,
+      "quarantined_at": null,
+      "resolver_results": {},
+      "safety_reason": null,
+      "sources": [
+        "bootstrap_seed"
+      ],
+      "status": "pending"
+    },
+    "support.tiktok.com": {
+      "canonical_name": null,
+      "consecutive_negative_checks": 0,
+      "ever_validated": false,
+      "expired_at": null,
+      "first_seen": "2026-08-21T07:37:46Z",
+      "hostname": "support.tiktok.com",
+      "ipv4": [],
+      "last_check": null,
+      "last_negative": null,
+      "last_result": "UNTESTED",
+      "last_success": null,
+      "negative_observations": 0,
+      "negative_since": null,
+      "quarantined_at": null,
+      "resolver_results": {},
+      "safety_reason": null,
+      "sources": [
+        "bootstrap_seed"
+      ],
+      "status": "pending"
+    },
+    "tiktok.com": {
+      "canonical_name": null,
+      "consecutive_negative_checks": 0,
+      "ever_validated": false,
+      "expired_at": null,
+      "first_seen": "2026-08-21T07:37:46Z",
+      "hostname": "tiktok.com",
+      "ipv4": [],
+      "last_check": null,
+      "last_negative": null,
+      "last_result": "UNTESTED",
+      "last_success": null,
+      "negative_observations": 0,
+      "negative_since": null,
+      "quarantined_at": null,
+      "resolver_results": {},
+      "safety_reason": null,
+      "sources": [
+        "bootstrap_seed"
+      ],
+      "status": "pending"
+    },
+    "www.tiktok.com": {
+      "canonical_name": null,
+      "consecutive_negative_checks": 0,
+      "ever_validated": false,
+      "expired_at": null,
+      "first_seen": "2026-08-21T07:37:46Z",
+      "hostname": "www.tiktok.com",
+      "ipv4": [],
+      "last_check": null,
+      "last_negative": null,
+      "last_result": "UNTESTED",
+      "last_success": null,
+      "negative_observations": 0,
+      "negative_since": null,
+      "quarantined_at": null,
+      "resolver_results": {},
+      "safety_reason": null,
+      "sources": [
+        "bootstrap_seed"
+      ],
+      "status": "pending"
+    }
+  },
+  "updated_at": null,
+  "version": 2
+}
