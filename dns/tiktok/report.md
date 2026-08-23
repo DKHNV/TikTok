@@ -1,6 +1,6 @@
 # Tiktok DNS Maintenance Report
 
-Generated: `2026-08-22T19:32:08Z`
+Generated: `2026-08-23T02:36:15Z`
 
 ## DNS lifecycle
 
@@ -38,12 +38,12 @@ Average stability: **90.0%**
 
 | Hostname | State | Since | Observations | Last error | IPv4 | Stability | Samples |
 |---|---|---|---:|---|---|---:|---:|
-| `ads-service.tiktok.com` | unknown | `2026-08-21T07:46:59Z` | 7 | TIMEOUT | 209.127.230.4 | 0.0 | 7 |
-| `notifications.tiktok.com` | unknown | `2026-08-21T07:46:59Z` | 7 | TIMEOUT | 130.44.213.67 | 0.0 | 7 |
+| `ads-service.tiktok.com` | unknown | `2026-08-21T07:46:59Z` | 8 | TIMEOUT | 209.127.230.4 | 0.0 | 8 |
+| `notifications.tiktok.com` | unknown | `2026-08-21T07:46:59Z` | 8 | TIMEOUT | 130.44.213.67 | 0.0 | 8 |
 
 ## Discovery
 
-Discovery state updated: `2026-08-22T19:32:08Z`
+Discovery state updated: `2026-08-23T02:36:15Z`
 
 ## Notes
 
