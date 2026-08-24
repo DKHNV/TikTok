@@ -1,9 +1,0 @@
-developer-sg.tiktok.com
-drs.gw.us.tiktok.com
-e.tiktok.com
-egress.gw.us.tiktok.com
-eu.tiktok.com
-info.tiktok.com
-mi-marketing.tiktok.com
-partner-us.tiktok.com
-wfa.tiktok.com
