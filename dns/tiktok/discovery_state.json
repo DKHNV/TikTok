@@ -3,11 +3,11 @@
     "certspotter": {
       "tiktok.com": {
         "after": 17080941398,
-        "caught_up": false,
-        "last_poll": "2026-09-09T17:08:22Z"
+        "caught_up": true,
+        "last_poll": "2026-09-09T21:39:39Z"
       }
     }
   },
-  "updated_at": "2026-09-09T17:08:22Z",
+  "updated_at": "2026-09-09T21:39:39Z",
   "version": 2
 }
