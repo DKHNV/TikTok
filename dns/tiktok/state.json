@@ -8,15 +8,15 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "accounts.scm-us.tiktok.com",
       "ipv4": [
-        "23.215.223.213",
-        "23.217.9.15",
-        "23.219.87.37",
-        "23.219.87.75"
+        "23.15.3.216",
+        "23.15.3.219",
+        "23.53.11.42",
+        "23.54.127.207"
       ],
-      "last_check": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-09-09T05:56:45Z",
+      "last_success": "2026-09-09T12:18:25Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -24,24 +24,24 @@
         "1.1.1.1": {
           "canonical_name": "a816.t.akamai.net",
           "ipv4": [
-            "23.219.87.37",
-            "23.219.87.75"
+            "23.15.3.216",
+            "23.15.3.219"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "a816.t.akamai.net",
           "ipv4": [
-            "23.219.87.37",
-            "23.219.87.75"
+            "23.53.11.42",
+            "23.54.127.207"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
           "canonical_name": "a816.t.akamai.net",
           "ipv4": [
-            "23.215.223.213",
-            "23.217.9.15"
+            "23.15.3.216",
+            "23.15.3.219"
           ],
           "status": "OK"
         }
@@ -62,10 +62,10 @@
       "ipv4": [
         "209.127.230.4"
       ],
-      "last_check": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-09-09T05:56:45Z",
+      "last_success": "2026-09-09T12:18:25Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -109,10 +109,10 @@
         "199.60.103.28",
         "199.60.103.228"
       ],
-      "last_check": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-09-09T05:56:45Z",
+      "last_success": "2026-09-09T12:18:25Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -150,18 +150,18 @@
     },
     "developer-sg.tiktok.com": {
       "canonical_name": null,
-      "consecutive_negative_checks": 69,
+      "consecutive_negative_checks": 70,
       "ever_validated": false,
       "expired_at": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "developer-sg.tiktok.com",
       "ipv4": [],
-      "last_check": "2026-09-09T05:56:45Z",
-      "last_failure": "2026-09-09T05:56:45Z",
-      "last_negative": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
+      "last_failure": "2026-09-09T12:18:25Z",
+      "last_negative": "2026-09-09T12:18:25Z",
       "last_result": "NEGATIVE",
       "last_success": null,
-      "negative_observations": 69,
+      "negative_observations": 70,
       "negative_since": "2026-08-21T07:46:59Z",
       "quarantined_at": "2026-08-28T12:42:57Z",
       "resolver_results": {
@@ -192,17 +192,17 @@
       "first_seen": "2026-08-21T07:37:46Z",
       "hostname": "developers.tiktok.com",
       "ipv4": [
-        "23.38.100.6",
-        "23.38.100.48",
-        "23.47.51.42",
-        "23.47.51.56",
-        "23.220.162.144",
-        "23.220.162.153"
+        "23.12.145.21",
+        "23.12.145.37",
+        "23.12.146.140",
+        "23.12.146.152",
+        "23.53.35.238",
+        "23.53.35.241"
       ],
-      "last_check": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-09-09T05:56:45Z",
+      "last_success": "2026-09-09T12:18:25Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -210,24 +210,24 @@
         "1.1.1.1": {
           "canonical_name": "a1851.r.akamai.net",
           "ipv4": [
-            "23.220.162.144",
-            "23.220.162.153"
+            "23.12.145.21",
+            "23.12.145.37"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "a1851.r.akamai.net",
           "ipv4": [
-            "23.47.51.42",
-            "23.47.51.56"
+            "23.12.146.140",
+            "23.12.146.152"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
           "canonical_name": "a1851.r.akamai.net",
           "ipv4": [
-            "23.38.100.6",
-            "23.38.100.48"
+            "23.53.35.238",
+            "23.53.35.241"
           ],
           "status": "OK"
         }
@@ -240,18 +240,18 @@
     },
     "drs.gw.us.tiktok.com": {
       "canonical_name": null,
-      "consecutive_negative_checks": 69,
+      "consecutive_negative_checks": 70,
       "ever_validated": false,
       "expired_at": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "drs.gw.us.tiktok.com",
       "ipv4": [],
-      "last_check": "2026-09-09T05:56:45Z",
-      "last_failure": "2026-09-09T05:56:45Z",
-      "last_negative": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
+      "last_failure": "2026-09-09T12:18:25Z",
+      "last_negative": "2026-09-09T12:18:25Z",
       "last_result": "NEGATIVE",
       "last_success": null,
-      "negative_observations": 69,
+      "negative_observations": 70,
       "negative_since": "2026-08-21T07:46:59Z",
       "quarantined_at": "2026-08-28T12:42:57Z",
       "resolver_results": {
@@ -276,18 +276,18 @@
     },
     "e.tiktok.com": {
       "canonical_name": null,
-      "consecutive_negative_checks": 69,
+      "consecutive_negative_checks": 70,
       "ever_validated": false,
       "expired_at": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "e.tiktok.com",
       "ipv4": [],
-      "last_check": "2026-09-09T05:56:45Z",
-      "last_failure": "2026-09-09T05:56:45Z",
-      "last_negative": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
+      "last_failure": "2026-09-09T12:18:25Z",
+      "last_negative": "2026-09-09T12:18:25Z",
       "last_result": "NEGATIVE",
       "last_success": null,
-      "negative_observations": 69,
+      "negative_observations": 70,
       "negative_since": "2026-08-21T07:46:59Z",
       "quarantined_at": "2026-08-28T12:42:57Z",
       "resolver_results": {
@@ -312,18 +312,18 @@
     },
     "egress.gw.us.tiktok.com": {
       "canonical_name": null,
-      "consecutive_negative_checks": 69,
+      "consecutive_negative_checks": 70,
       "ever_validated": false,
       "expired_at": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "egress.gw.us.tiktok.com",
       "ipv4": [],
-      "last_check": "2026-09-09T05:56:45Z",
-      "last_failure": "2026-09-09T05:56:45Z",
-      "last_negative": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
+      "last_failure": "2026-09-09T12:18:25Z",
+      "last_negative": "2026-09-09T12:18:25Z",
       "last_result": "NEGATIVE",
       "last_success": null,
-      "negative_observations": 69,
+      "negative_observations": 70,
       "negative_since": "2026-08-21T07:46:59Z",
       "quarantined_at": "2026-08-28T12:42:57Z",
       "resolver_results": {
@@ -354,17 +354,15 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "eu.safety-enforcement.tiktok.com",
       "ipv4": [
-        "23.55.178.67",
-        "23.215.223.150",
-        "23.217.9.9",
-        "23.219.87.7",
-        "23.219.87.44",
-        "184.25.255.148"
+        "23.15.3.145",
+        "23.15.3.146",
+        "23.53.11.79",
+        "23.54.127.241"
       ],
-      "last_check": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-09-09T05:56:45Z",
+      "last_success": "2026-09-09T12:18:25Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -372,24 +370,24 @@
         "1.1.1.1": {
           "canonical_name": "a673.t.akamai.net",
           "ipv4": [
-            "23.55.178.67",
-            "184.25.255.148"
+            "23.15.3.145",
+            "23.15.3.146"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "a673.t.akamai.net",
           "ipv4": [
-            "23.219.87.7",
-            "23.219.87.44"
+            "23.53.11.79",
+            "23.54.127.241"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
           "canonical_name": "a673.t.akamai.net",
           "ipv4": [
-            "23.215.223.150",
-            "23.217.9.9"
+            "23.15.3.145",
+            "23.15.3.146"
           ],
           "status": "OK"
         }
@@ -402,18 +400,18 @@
     },
     "eu.tiktok.com": {
       "canonical_name": null,
-      "consecutive_negative_checks": 69,
+      "consecutive_negative_checks": 70,
       "ever_validated": false,
       "expired_at": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "eu.tiktok.com",
       "ipv4": [],
-      "last_check": "2026-09-09T05:56:45Z",
-      "last_failure": "2026-09-09T05:56:45Z",
-      "last_negative": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
+      "last_failure": "2026-09-09T12:18:25Z",
+      "last_negative": "2026-09-09T12:18:25Z",
       "last_result": "NEGATIVE",
       "last_success": null,
-      "negative_observations": 69,
+      "negative_observations": 70,
       "negative_since": "2026-08-21T07:46:59Z",
       "quarantined_at": "2026-08-28T12:42:57Z",
       "resolver_results": {
@@ -444,22 +442,18 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "in.tiktok.com",
       "ipv4": [
-        "23.201.96.133",
-        "23.201.96.142",
-        "23.201.96.144",
-        "23.201.96.148",
-        "23.201.96.154",
-        "23.201.96.169",
-        "23.211.124.196",
-        "23.211.124.203",
-        "23.222.241.42",
-        "23.222.241.46",
-        "23.222.241.52"
+        "23.48.203.142",
+        "23.48.203.147",
+        "23.53.35.137",
+        "23.53.35.138",
+        "23.53.35.139",
+        "23.73.207.74",
+        "23.73.207.77"
       ],
-      "last_check": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-09-09T05:56:45Z",
+      "last_success": "2026-09-09T12:18:25Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -467,29 +461,25 @@
         "1.1.1.1": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.201.96.133",
-            "23.201.96.142",
-            "23.201.96.144",
-            "23.201.96.148",
-            "23.201.96.154",
-            "23.201.96.169"
+            "23.73.207.74",
+            "23.73.207.77"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.222.241.42",
-            "23.222.241.46",
-            "23.222.241.52"
+            "23.48.203.142",
+            "23.48.203.147"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.211.124.196",
-            "23.211.124.203"
+            "23.53.35.137",
+            "23.53.35.138",
+            "23.53.35.139"
           ],
           "status": "OK"
         }
@@ -502,18 +492,18 @@
     },
     "info.tiktok.com": {
       "canonical_name": null,
-      "consecutive_negative_checks": 69,
+      "consecutive_negative_checks": 70,
       "ever_validated": false,
       "expired_at": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "info.tiktok.com",
       "ipv4": [],
-      "last_check": "2026-09-09T05:56:45Z",
-      "last_failure": "2026-09-09T05:56:45Z",
-      "last_negative": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
+      "last_failure": "2026-09-09T12:18:25Z",
+      "last_negative": "2026-09-09T12:18:25Z",
       "last_result": "NEGATIVE",
       "last_success": null,
-      "negative_observations": 69,
+      "negative_observations": 70,
       "negative_since": "2026-08-21T07:46:59Z",
       "quarantined_at": "2026-08-28T12:42:57Z",
       "resolver_results": {
@@ -544,23 +534,16 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "live-backstage.tiktok.com",
       "ipv4": [
-        "23.201.96.133",
-        "23.201.96.134",
-        "23.201.96.142",
-        "23.201.96.144",
-        "23.201.96.148",
-        "23.201.96.154",
-        "23.201.96.169",
-        "23.211.124.196",
-        "23.211.124.203",
-        "23.222.241.42",
-        "23.222.241.46",
-        "23.222.241.52"
+        "23.48.203.142",
+        "23.48.203.147",
+        "23.53.35.137",
+        "23.53.35.138",
+        "23.53.35.139"
       ],
-      "last_check": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-09-09T05:56:45Z",
+      "last_success": "2026-09-09T12:18:25Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -568,30 +551,26 @@
         "1.1.1.1": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.201.96.133",
-            "23.201.96.134",
-            "23.201.96.142",
-            "23.201.96.144",
-            "23.201.96.148",
-            "23.201.96.154",
-            "23.201.96.169"
+            "23.53.35.137",
+            "23.53.35.138",
+            "23.53.35.139"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.222.241.42",
-            "23.222.241.46",
-            "23.222.241.52"
+            "23.48.203.142",
+            "23.48.203.147"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.211.124.196",
-            "23.211.124.203"
+            "23.53.35.137",
+            "23.53.35.138",
+            "23.53.35.139"
           ],
           "status": "OK"
         }
@@ -604,18 +583,18 @@
     },
     "mi-marketing.tiktok.com": {
       "canonical_name": null,
-      "consecutive_negative_checks": 69,
+      "consecutive_negative_checks": 70,
       "ever_validated": false,
       "expired_at": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "mi-marketing.tiktok.com",
       "ipv4": [],
-      "last_check": "2026-09-09T05:56:45Z",
-      "last_failure": "2026-09-09T05:56:45Z",
-      "last_negative": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
+      "last_failure": "2026-09-09T12:18:25Z",
+      "last_negative": "2026-09-09T12:18:25Z",
       "last_result": "NEGATIVE",
       "last_success": null,
-      "negative_observations": 69,
+      "negative_observations": 70,
       "negative_since": "2026-08-21T07:46:59Z",
       "quarantined_at": "2026-08-28T12:42:57Z",
       "resolver_results": {
@@ -646,20 +625,16 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "music.tiktok.com",
       "ipv4": [
-        "23.205.249.181",
-        "23.205.249.186",
-        "23.205.249.194",
-        "23.205.249.202",
-        "23.211.124.196",
-        "23.211.124.203",
-        "23.222.241.42",
-        "23.222.241.46",
-        "23.222.241.52"
+        "23.48.203.142",
+        "23.48.203.147",
+        "23.53.35.137",
+        "23.53.35.138",
+        "23.53.35.139"
       ],
-      "last_check": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-09-09T05:56:45Z",
+      "last_success": "2026-09-09T12:18:25Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -667,27 +642,25 @@
         "1.1.1.1": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.205.249.181",
-            "23.205.249.186",
-            "23.205.249.194",
-            "23.205.249.202"
+            "23.53.35.137",
+            "23.53.35.138",
+            "23.53.35.139"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.222.241.42",
-            "23.222.241.46",
-            "23.222.241.52"
+            "23.48.203.142",
+            "23.48.203.147"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.211.124.196",
-            "23.211.124.203"
+            "23.53.35.138",
+            "23.53.35.139"
           ],
           "status": "OK"
         }
@@ -706,17 +679,17 @@
       "first_seen": "2026-08-21T07:37:46Z",
       "hostname": "newsroom.tiktok.com",
       "ipv4": [
-        "23.38.100.20",
-        "23.38.100.47",
-        "23.47.51.19",
-        "23.47.51.27",
-        "23.196.4.131",
-        "23.196.4.147"
+        "23.12.146.138",
+        "23.12.146.162",
+        "23.53.35.232",
+        "23.53.35.233",
+        "104.97.85.152",
+        "104.97.85.170"
       ],
-      "last_check": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-09-09T05:56:45Z",
+      "last_success": "2026-09-09T12:18:25Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -724,24 +697,24 @@
         "1.1.1.1": {
           "canonical_name": "a1991.r.akamai.net",
           "ipv4": [
-            "23.196.4.131",
-            "23.196.4.147"
+            "104.97.85.152",
+            "104.97.85.170"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "a1991.r.akamai.net",
           "ipv4": [
-            "23.47.51.19",
-            "23.47.51.27"
+            "23.12.146.138",
+            "23.12.146.162"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
           "canonical_name": "a1991.r.akamai.net",
           "ipv4": [
-            "23.38.100.20",
-            "23.38.100.47"
+            "23.53.35.232",
+            "23.53.35.233"
           ],
           "status": "OK"
         }
@@ -762,10 +735,10 @@
       "ipv4": [
         "130.44.213.67"
       ],
-      "last_check": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-09-09T05:56:45Z",
+      "last_success": "2026-09-09T12:18:25Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -800,18 +773,18 @@
     },
     "partner-us.tiktok.com": {
       "canonical_name": null,
-      "consecutive_negative_checks": 69,
+      "consecutive_negative_checks": 70,
       "ever_validated": false,
       "expired_at": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "partner-us.tiktok.com",
       "ipv4": [],
-      "last_check": "2026-09-09T05:56:45Z",
-      "last_failure": "2026-09-09T05:56:45Z",
-      "last_negative": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
+      "last_failure": "2026-09-09T12:18:25Z",
+      "last_negative": "2026-09-09T12:18:25Z",
       "last_result": "NEGATIVE",
       "last_success": null,
-      "negative_observations": 69,
+      "negative_observations": 70,
       "negative_since": "2026-08-21T07:46:59Z",
       "quarantined_at": "2026-08-28T12:42:57Z",
       "resolver_results": {
@@ -842,21 +815,20 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "safety-enforcement.tiktok.com",
       "ipv4": [
-        "23.205.249.181",
-        "23.205.249.186",
-        "23.205.249.194",
-        "23.205.249.202",
-        "23.205.249.209",
-        "23.211.124.196",
-        "23.211.124.203",
-        "23.222.241.42",
-        "23.222.241.46",
-        "23.222.241.52"
+        "23.48.203.142",
+        "23.48.203.147",
+        "23.53.35.137",
+        "23.53.35.138",
+        "23.53.35.139",
+        "23.53.35.146",
+        "23.212.251.142",
+        "23.212.251.149",
+        "23.212.251.154"
       ],
-      "last_check": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-09-09T05:56:45Z",
+      "last_success": "2026-09-09T12:18:25Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -864,28 +836,27 @@
         "1.1.1.1": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.205.249.181",
-            "23.205.249.186",
-            "23.205.249.194",
-            "23.205.249.202",
-            "23.205.249.209"
+            "23.212.251.142",
+            "23.212.251.149",
+            "23.212.251.154"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.222.241.42",
-            "23.222.241.46",
-            "23.222.241.52"
+            "23.48.203.142",
+            "23.48.203.147"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.211.124.196",
-            "23.211.124.203"
+            "23.53.35.137",
+            "23.53.35.138",
+            "23.53.35.139",
+            "23.53.35.146"
           ],
           "status": "OK"
         }
@@ -904,22 +875,19 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "scm-us.tiktok.com",
       "ipv4": [
-        "23.203.48.136",
-        "23.203.48.138",
-        "23.203.48.147",
-        "23.203.48.151",
-        "23.203.48.152",
-        "23.203.48.175",
-        "23.203.48.179",
-        "23.222.241.42",
-        "23.222.241.46",
-        "23.222.241.52",
-        "199.232.66.73"
+        "23.48.203.142",
+        "23.48.203.147",
+        "23.53.35.137",
+        "23.53.35.138",
+        "23.53.35.139",
+        "23.212.251.142",
+        "23.212.251.149",
+        "23.212.251.154"
       ],
-      "last_check": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-09-09T05:56:45Z",
+      "last_success": "2026-09-09T12:18:25Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -927,29 +895,26 @@
         "1.1.1.1": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.203.48.136",
-            "23.203.48.138",
-            "23.203.48.147",
-            "23.203.48.151",
-            "23.203.48.152",
-            "23.203.48.175",
-            "23.203.48.179"
+            "23.212.251.142",
+            "23.212.251.149",
+            "23.212.251.154"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.222.241.42",
-            "23.222.241.46",
-            "23.222.241.52"
+            "23.48.203.142",
+            "23.48.203.147"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
-          "canonical_name": "us.bytedance.map.fastly.net",
+          "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "199.232.66.73"
+            "23.53.35.137",
+            "23.53.35.138",
+            "23.53.35.139"
           ],
           "status": "OK"
         }
@@ -968,18 +933,16 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "seller-id.tiktok.com",
       "ipv4": [
-        "23.205.249.186",
-        "23.205.249.194",
-        "23.211.124.196",
-        "23.211.124.203",
-        "23.222.241.42",
-        "23.222.241.46",
-        "23.222.241.52"
+        "23.48.203.142",
+        "23.48.203.147",
+        "23.53.35.137",
+        "23.53.35.138",
+        "23.53.35.139"
       ],
-      "last_check": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-09-09T05:56:45Z",
+      "last_success": "2026-09-09T12:18:25Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -987,25 +950,25 @@
         "1.1.1.1": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.205.249.186",
-            "23.205.249.194"
+            "23.48.203.142",
+            "23.48.203.147"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.222.241.42",
-            "23.222.241.46",
-            "23.222.241.52"
+            "23.48.203.142",
+            "23.48.203.147"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.211.124.196",
-            "23.211.124.203"
+            "23.53.35.137",
+            "23.53.35.138",
+            "23.53.35.139"
           ],
           "status": "OK"
         }
@@ -1024,15 +987,17 @@
       "first_seen": "2026-08-21T07:37:46Z",
       "hostname": "support.tiktok.com",
       "ipv4": [
-        "23.38.100.61",
-        "23.38.100.78",
-        "23.47.51.22",
-        "23.47.51.61"
+        "23.12.146.138",
+        "23.12.146.154",
+        "23.53.35.230",
+        "23.53.35.241",
+        "23.223.247.210",
+        "23.223.247.224"
       ],
-      "last_check": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-09-09T05:56:45Z",
+      "last_success": "2026-09-09T12:18:25Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -1040,24 +1005,24 @@
         "1.1.1.1": {
           "canonical_name": "a1933.r.akamai.net",
           "ipv4": [
-            "23.47.51.22",
-            "23.47.51.61"
+            "23.223.247.210",
+            "23.223.247.224"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "a1933.r.akamai.net",
           "ipv4": [
-            "23.47.51.22",
-            "23.47.51.61"
+            "23.12.146.138",
+            "23.12.146.154"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
           "canonical_name": "a1933.r.akamai.net",
           "ipv4": [
-            "23.38.100.61",
-            "23.38.100.78"
+            "23.53.35.230",
+            "23.53.35.241"
           ],
           "status": "OK"
         }
@@ -1076,23 +1041,22 @@
       "first_seen": "2026-08-21T07:37:46Z",
       "hostname": "tiktok.com",
       "ipv4": [
-        "23.201.96.133",
-        "23.201.96.134",
-        "23.201.96.142",
-        "23.201.96.144",
-        "23.201.96.148",
-        "23.201.96.154",
-        "23.201.96.169",
-        "23.211.124.196",
-        "23.211.124.203",
-        "23.222.241.42",
-        "23.222.241.46",
-        "23.222.241.52"
+        "23.48.203.142",
+        "23.48.203.147",
+        "23.53.11.133",
+        "23.53.11.135",
+        "23.53.11.136",
+        "23.53.11.143",
+        "23.53.11.146",
+        "23.53.35.137",
+        "23.53.35.138",
+        "23.53.35.139",
+        "23.53.35.146"
       ],
-      "last_check": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-09-09T05:56:45Z",
+      "last_success": "2026-09-09T12:18:25Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -1100,30 +1064,29 @@
         "1.1.1.1": {
           "canonical_name": "tiktok.com",
           "ipv4": [
-            "23.201.96.133",
-            "23.201.96.134",
-            "23.201.96.142",
-            "23.201.96.144",
-            "23.201.96.148",
-            "23.201.96.154",
-            "23.201.96.169"
+            "23.53.11.133",
+            "23.53.11.135",
+            "23.53.11.136",
+            "23.53.11.143",
+            "23.53.11.146"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "tiktok.com",
           "ipv4": [
-            "23.222.241.42",
-            "23.222.241.46",
-            "23.222.241.52"
+            "23.48.203.142",
+            "23.48.203.147"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
           "canonical_name": "tiktok.com",
           "ipv4": [
-            "23.211.124.196",
-            "23.211.124.203"
+            "23.53.35.137",
+            "23.53.35.138",
+            "23.53.35.139",
+            "23.53.35.146"
           ],
           "status": "OK"
         }
@@ -1146,10 +1109,10 @@
         "18.198.163.56",
         "18.198.218.66"
       ],
-      "last_check": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-09-09T05:56:45Z",
+      "last_success": "2026-09-09T12:18:25Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -1196,10 +1159,10 @@
         "18.198.163.56",
         "18.198.218.66"
       ],
-      "last_check": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-09-09T05:56:45Z",
+      "last_success": "2026-09-09T12:18:25Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -1243,23 +1206,17 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "tv.tiktok.com",
       "ipv4": [
-        "23.201.96.133",
-        "23.201.96.134",
-        "23.201.96.142",
-        "23.201.96.144",
-        "23.201.96.148",
-        "23.201.96.154",
-        "23.201.96.169",
-        "23.211.124.196",
-        "23.211.124.203",
-        "23.222.241.42",
-        "23.222.241.46",
-        "23.222.241.52"
+        "23.48.203.142",
+        "23.48.203.147",
+        "23.53.35.137",
+        "23.53.35.138",
+        "23.53.35.139",
+        "23.53.35.146"
       ],
-      "last_check": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-09-09T05:56:45Z",
+      "last_success": "2026-09-09T12:18:25Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -1267,30 +1224,27 @@
         "1.1.1.1": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.201.96.133",
-            "23.201.96.134",
-            "23.201.96.142",
-            "23.201.96.144",
-            "23.201.96.148",
-            "23.201.96.154",
-            "23.201.96.169"
+            "23.53.35.137",
+            "23.53.35.138",
+            "23.53.35.139",
+            "23.53.35.146"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.222.241.42",
-            "23.222.241.46",
-            "23.222.241.52"
+            "23.48.203.142",
+            "23.48.203.147"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.211.124.196",
-            "23.211.124.203"
+            "23.53.35.137",
+            "23.53.35.138",
+            "23.53.35.139"
           ],
           "status": "OK"
         }
@@ -1309,38 +1263,38 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "us.tiktok.com",
       "ipv4": [
-        "23.192.223.196",
-        "23.192.223.198",
-        "23.192.223.199",
-        "23.192.223.201",
-        "23.192.223.203",
-        "23.192.223.206",
-        "23.192.223.207",
-        "23.192.223.208",
-        "23.192.223.209",
-        "23.212.185.68",
-        "23.212.185.72",
-        "23.212.185.74",
-        "23.212.185.76",
-        "23.212.185.77",
-        "23.212.185.81",
-        "23.212.185.84",
-        "23.212.185.85",
-        "23.212.185.88",
-        "23.217.9.36",
-        "23.217.9.38",
-        "23.217.9.41",
-        "23.217.9.44",
-        "23.217.9.45",
-        "23.217.9.46",
-        "23.217.9.53",
-        "23.217.9.54",
-        "23.217.9.55"
+        "23.15.3.4",
+        "23.15.3.9",
+        "23.15.3.10",
+        "23.15.3.15",
+        "23.15.3.24",
+        "23.15.3.26",
+        "23.15.3.28",
+        "23.15.3.31",
+        "23.15.3.33",
+        "23.53.11.196",
+        "23.53.11.199",
+        "23.53.11.201",
+        "23.53.11.202",
+        "23.53.11.208",
+        "23.53.11.209",
+        "23.53.11.210",
+        "23.53.11.212",
+        "23.53.11.215",
+        "23.53.35.68",
+        "23.53.35.69",
+        "23.53.35.70",
+        "23.53.35.71",
+        "23.53.35.72",
+        "23.53.35.74",
+        "23.53.35.75",
+        "23.53.35.76",
+        "23.53.35.81"
       ],
-      "last_check": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-09-09T05:56:45Z",
+      "last_success": "2026-09-09T12:18:25Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -1348,45 +1302,45 @@
         "1.1.1.1": {
           "canonical_name": "a2047.api10.akamai.net",
           "ipv4": [
-            "23.192.223.196",
-            "23.192.223.198",
-            "23.192.223.199",
-            "23.192.223.201",
-            "23.192.223.203",
-            "23.192.223.206",
-            "23.192.223.207",
-            "23.192.223.208",
-            "23.192.223.209"
+            "23.15.3.4",
+            "23.15.3.9",
+            "23.15.3.10",
+            "23.15.3.15",
+            "23.15.3.24",
+            "23.15.3.26",
+            "23.15.3.28",
+            "23.15.3.31",
+            "23.15.3.33"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "a2047.api10.akamai.net",
           "ipv4": [
-            "23.212.185.68",
-            "23.212.185.72",
-            "23.212.185.74",
-            "23.212.185.76",
-            "23.212.185.77",
-            "23.212.185.81",
-            "23.212.185.84",
-            "23.212.185.85",
-            "23.212.185.88"
+            "23.53.35.68",
+            "23.53.35.69",
+            "23.53.35.70",
+            "23.53.35.71",
+            "23.53.35.72",
+            "23.53.35.74",
+            "23.53.35.75",
+            "23.53.35.76",
+            "23.53.35.81"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
           "canonical_name": "a2047.api10.akamai.net",
           "ipv4": [
-            "23.217.9.36",
-            "23.217.9.38",
-            "23.217.9.41",
-            "23.217.9.44",
-            "23.217.9.45",
-            "23.217.9.46",
-            "23.217.9.53",
-            "23.217.9.54",
-            "23.217.9.55"
+            "23.53.11.196",
+            "23.53.11.199",
+            "23.53.11.201",
+            "23.53.11.202",
+            "23.53.11.208",
+            "23.53.11.209",
+            "23.53.11.210",
+            "23.53.11.212",
+            "23.53.11.215"
           ],
           "status": "OK"
         }
@@ -1399,18 +1353,18 @@
     },
     "wfa.tiktok.com": {
       "canonical_name": null,
-      "consecutive_negative_checks": 69,
+      "consecutive_negative_checks": 70,
       "ever_validated": false,
       "expired_at": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "wfa.tiktok.com",
       "ipv4": [],
-      "last_check": "2026-09-09T05:56:45Z",
-      "last_failure": "2026-09-09T05:56:45Z",
-      "last_negative": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
+      "last_failure": "2026-09-09T12:18:25Z",
+      "last_negative": "2026-09-09T12:18:25Z",
       "last_result": "NEGATIVE",
       "last_success": null,
-      "negative_observations": 69,
+      "negative_observations": 70,
       "negative_since": "2026-08-21T07:46:59Z",
       "quarantined_at": "2026-08-28T12:42:57Z",
       "resolver_results": {
@@ -1441,84 +1395,84 @@
       "first_seen": "2026-08-21T07:37:46Z",
       "hostname": "www.tiktok.com",
       "ipv4": [
-        "23.195.81.57",
-        "23.195.81.65",
-        "23.195.81.66",
-        "23.195.81.81",
-        "23.195.81.89",
-        "23.195.81.91",
-        "23.195.81.98",
-        "23.195.81.106",
-        "23.195.81.114",
-        "23.218.232.5",
-        "23.218.232.11",
-        "23.218.232.12",
-        "23.218.232.15",
-        "23.218.232.17",
-        "23.218.232.22",
-        "23.218.232.23",
-        "23.218.232.25",
-        "23.218.232.27",
-        "23.222.27.133",
-        "23.222.27.138",
-        "23.222.27.140",
-        "23.222.27.142",
-        "23.222.27.145",
-        "23.222.27.147",
-        "23.222.27.148",
-        "23.222.27.150",
-        "23.222.27.151"
+        "23.15.3.4",
+        "23.15.3.6",
+        "23.15.3.7",
+        "23.15.3.8",
+        "23.15.3.9",
+        "23.15.3.10",
+        "23.15.3.11",
+        "23.15.3.32",
+        "23.15.3.33",
+        "23.55.176.72",
+        "23.55.176.76",
+        "23.55.176.79",
+        "23.55.176.80",
+        "23.55.176.81",
+        "23.55.176.82",
+        "23.55.176.83",
+        "23.55.176.86",
+        "23.55.176.87",
+        "23.215.0.134",
+        "23.215.0.136",
+        "23.215.0.137",
+        "23.215.0.138",
+        "23.215.0.140",
+        "23.215.0.141",
+        "23.215.0.142",
+        "23.215.0.144",
+        "23.215.0.145"
       ],
-      "last_check": "2026-09-09T05:56:45Z",
+      "last_check": "2026-09-09T12:18:25Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-09-09T05:56:45Z",
+      "last_success": "2026-09-09T12:18:25Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
       "resolver_results": {
         "1.1.1.1": {
-          "canonical_name": "a2047.api2.akamai.net",
+          "canonical_name": "a2047.api5.akamai.net",
           "ipv4": [
-            "23.218.232.5",
-            "23.218.232.11",
-            "23.218.232.12",
-            "23.218.232.15",
-            "23.218.232.17",
-            "23.218.232.22",
-            "23.218.232.23",
-            "23.218.232.25",
-            "23.218.232.27"
+            "23.15.3.4",
+            "23.15.3.6",
+            "23.15.3.7",
+            "23.15.3.8",
+            "23.15.3.9",
+            "23.15.3.10",
+            "23.15.3.11",
+            "23.15.3.32",
+            "23.15.3.33"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
-          "canonical_name": "a2047.api3.akamai.net",
+          "canonical_name": "a2047.api2.akamai.net",
           "ipv4": [
-            "23.195.81.57",
-            "23.195.81.65",
-            "23.195.81.66",
-            "23.195.81.81",
-            "23.195.81.89",
-            "23.195.81.91",
-            "23.195.81.98",
-            "23.195.81.106",
-            "23.195.81.114"
+            "23.215.0.134",
+            "23.215.0.136",
+            "23.215.0.137",
+            "23.215.0.138",
+            "23.215.0.140",
+            "23.215.0.141",
+            "23.215.0.142",
+            "23.215.0.144",
+            "23.215.0.145"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
-          "canonical_name": "a2047.api7.akamai.net",
+          "canonical_name": "a2047.api4.akamai.net",
           "ipv4": [
-            "23.222.27.133",
-            "23.222.27.138",
-            "23.222.27.140",
-            "23.222.27.142",
-            "23.222.27.145",
-            "23.222.27.147",
-            "23.222.27.148",
-            "23.222.27.150",
-            "23.222.27.151"
+            "23.55.176.72",
+            "23.55.176.76",
+            "23.55.176.79",
+            "23.55.176.80",
+            "23.55.176.81",
+            "23.55.176.82",
+            "23.55.176.83",
+            "23.55.176.86",
+            "23.55.176.87"
           ],
           "status": "OK"
         }
@@ -1531,6 +1485,6 @@
       "status": "active"
     }
   },
-  "updated_at": "2026-09-09T05:56:45Z",
+  "updated_at": "2026-09-09T12:18:25Z",
   "version": 2
 }
