@@ -3,9 +3,9 @@
     "accounts.scm-us.tiktok.com": {
       "attempts": [
         {
-          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cipher": "TLS_AES_128_GCM_SHA256",
           "http_status": 404,
-          "ip": "23.11.232.112",
+          "ip": "146.75.30.73",
           "port": 443,
           "status": "HTTPS_OK",
           "tls_version": "TLSv1.3"
@@ -17,14 +17,6 @@
       "failure_since": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "history": [
-        {
-          "at": "2026-08-28T12:42:57Z",
-          "http_status": 404,
-          "ip": "184.25.59.78",
-          "result": "ALIVE",
-          "tls_version": "TLSv1.3",
-          "type": "HTTPS_OK"
-        },
         {
           "at": "2026-08-28T23:00:17Z",
           "http_status": 404,
@@ -439,21 +431,29 @@
           "result": "ALIVE",
           "tls_version": "TLSv1.3",
           "type": "HTTPS_OK"
+        },
+        {
+          "at": "2026-09-11T17:00:11Z",
+          "http_status": 404,
+          "ip": "146.75.30.73",
+          "result": "ALIVE",
+          "tls_version": "TLSv1.3",
+          "type": "HTTPS_OK"
         }
       ],
       "history_failures": 0,
       "history_samples": 53,
       "history_successes": 53,
       "hostname": "accounts.scm-us.tiktok.com",
-      "last_check": "2026-09-11T12:10:22Z",
+      "last_check": "2026-09-11T17:00:11Z",
       "last_failure": null,
       "last_ipv4": [
-        "23.11.232.112",
-        "23.11.232.4",
-        "23.32.1.214"
+        "146.75.30.73",
+        "23.15.3.216",
+        "23.15.3.219"
       ],
       "last_result": "ALIVE",
-      "last_success": "2026-09-11T12:10:22Z",
+      "last_success": "2026-09-11T17:00:11Z",
       "stability_score": 100.0,
       "status": "alive"
     },
@@ -466,20 +466,12 @@
           "status": "TIMEOUT"
         }
       ],
-      "consecutive_failures": 78,
+      "consecutive_failures": 79,
       "ever_alive": false,
-      "failure_observations": 78,
+      "failure_observations": 79,
       "failure_since": "2026-08-21T07:46:59Z",
       "first_seen": "2026-08-21T07:46:59Z",
       "history": [
-        {
-          "at": "2026-08-28T12:42:57Z",
-          "result": "FAILURE",
-          "statuses": [
-            "TIMEOUT"
-          ],
-          "type": "TIMEOUT"
-        },
         {
           "at": "2026-08-28T23:00:17Z",
           "result": "FAILURE",
@@ -895,15 +887,23 @@
             "TIMEOUT"
           ],
           "type": "TIMEOUT"
+        },
+        {
+          "at": "2026-09-11T17:00:11Z",
+          "result": "FAILURE",
+          "statuses": [
+            "TIMEOUT"
+          ],
+          "type": "TIMEOUT"
         }
       ],
       "history_failures": 53,
       "history_samples": 53,
       "history_successes": 0,
       "hostname": "ads-service.tiktok.com",
-      "last_check": "2026-09-11T12:10:22Z",
+      "last_check": "2026-09-11T17:00:11Z",
       "last_failure": {
-        "at": "2026-09-11T12:10:22Z",
+        "at": "2026-09-11T17:00:11Z",
         "attempts": [
           {
             "detail": "timed out",
@@ -943,14 +943,6 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "history": [
         {
-          "at": "2026-08-28T12:42:57Z",
-          "http_status": 403,
-          "ip": "199.60.103.228",
-          "result": "ALIVE",
-          "tls_version": "TLSv1.3",
-          "type": "HTTPS_OK"
-        },
-        {
           "at": "2026-08-28T23:00:17Z",
           "http_status": 403,
           "ip": "199.60.103.228",
@@ -1365,20 +1357,28 @@
           "result": "ALIVE",
           "tls_version": "TLSv1.3",
           "type": "HTTPS_OK"
+        },
+        {
+          "at": "2026-09-11T17:00:11Z",
+          "http_status": 403,
+          "ip": "199.60.103.228",
+          "result": "ALIVE",
+          "tls_version": "TLSv1.3",
+          "type": "HTTPS_OK"
         }
       ],
       "history_failures": 0,
       "history_samples": 53,
       "history_successes": 53,
       "hostname": "apac-marketing.tiktok.com",
-      "last_check": "2026-09-11T12:10:22Z",
+      "last_check": "2026-09-11T17:00:11Z",
       "last_failure": null,
       "last_ipv4": [
         "199.60.103.228",
         "199.60.103.28"
       ],
       "last_result": "ALIVE",
-      "last_success": "2026-09-11T12:10:22Z",
+      "last_success": "2026-09-11T17:00:11Z",
       "stability_score": 100.0,
       "status": "alive"
     },
@@ -1387,7 +1387,7 @@
         {
           "cipher": "TLS_AES_256_GCM_SHA384",
           "http_status": 404,
-          "ip": "23.197.86.134",
+          "ip": "2.18.67.76",
           "port": 443,
           "status": "HTTPS_OK",
           "tls_version": "TLSv1.3"
@@ -1399,14 +1399,6 @@
       "failure_since": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "history": [
-        {
-          "at": "2026-08-28T12:42:57Z",
-          "http_status": 404,
-          "ip": "23.220.144.10",
-          "result": "ALIVE",
-          "tls_version": "TLSv1.3",
-          "type": "HTTPS_OK"
-        },
         {
           "at": "2026-08-28T23:00:17Z",
           "http_status": 404,
@@ -1822,21 +1814,29 @@
           "result": "ALIVE",
           "tls_version": "TLSv1.3",
           "type": "HTTPS_OK"
+        },
+        {
+          "at": "2026-09-11T17:00:11Z",
+          "http_status": 404,
+          "ip": "2.18.67.76",
+          "result": "ALIVE",
+          "tls_version": "TLSv1.3",
+          "type": "HTTPS_OK"
         }
       ],
       "history_failures": 0,
       "history_samples": 53,
       "history_successes": 53,
       "hostname": "developers.tiktok.com",
-      "last_check": "2026-09-11T12:10:22Z",
+      "last_check": "2026-09-11T17:00:11Z",
       "last_failure": null,
       "last_ipv4": [
-        "23.197.86.134",
-        "23.197.86.190",
-        "23.210.216.86"
+        "2.18.67.76",
+        "2.18.67.81",
+        "23.12.145.21"
       ],
       "last_result": "ALIVE",
-      "last_success": "2026-09-11T12:10:22Z",
+      "last_success": "2026-09-11T17:00:11Z",
       "stability_score": 100.0,
       "status": "alive"
     },
@@ -1845,7 +1845,7 @@
         {
           "cipher": "TLS_AES_256_GCM_SHA384",
           "http_status": 200,
-          "ip": "23.11.232.113",
+          "ip": "23.15.3.141",
           "port": 443,
           "status": "HTTPS_OK",
           "tls_version": "TLSv1.3"
@@ -1857,14 +1857,6 @@
       "failure_since": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "history": [
-        {
-          "at": "2026-08-28T12:42:57Z",
-          "http_status": 200,
-          "ip": "23.215.11.146",
-          "result": "ALIVE",
-          "tls_version": "TLSv1.3",
-          "type": "HTTPS_OK"
-        },
         {
           "at": "2026-08-28T23:00:17Z",
           "http_status": 200,
@@ -2279,21 +2271,29 @@
           "result": "ALIVE",
           "tls_version": "TLSv1.3",
           "type": "HTTPS_OK"
+        },
+        {
+          "at": "2026-09-11T17:00:11Z",
+          "http_status": 200,
+          "ip": "23.15.3.141",
+          "result": "ALIVE",
+          "tls_version": "TLSv1.3",
+          "type": "HTTPS_OK"
         }
       ],
       "history_failures": 0,
       "history_samples": 53,
       "history_successes": 53,
       "hostname": "eu.safety-enforcement.tiktok.com",
-      "last_check": "2026-09-11T12:10:22Z",
+      "last_check": "2026-09-11T17:00:11Z",
       "last_failure": null,
       "last_ipv4": [
-        "23.11.232.113",
-        "23.11.232.54",
-        "23.32.1.147"
+        "23.15.3.141",
+        "23.15.3.146",
+        "23.53.11.79"
       ],
       "last_result": "ALIVE",
-      "last_success": "2026-09-11T12:10:22Z",
+      "last_success": "2026-09-11T17:00:11Z",
       "stability_score": 100.0,
       "status": "alive"
     },
@@ -2302,7 +2302,7 @@
         {
           "cipher": "TLS_AES_256_GCM_SHA384",
           "http_status": 302,
-          "ip": "173.222.162.138",
+          "ip": "23.48.203.105",
           "port": 443,
           "status": "HTTPS_OK",
           "tls_version": "TLSv1.3"
@@ -2314,14 +2314,6 @@
       "failure_since": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "history": [
-        {
-          "at": "2026-08-28T12:42:57Z",
-          "http_status": 302,
-          "ip": "23.200.156.14",
-          "result": "ALIVE",
-          "tls_version": "TLSv1.3",
-          "type": "HTTPS_OK"
-        },
         {
           "at": "2026-08-28T23:00:17Z",
           "http_status": 302,
@@ -2737,21 +2729,29 @@
           "result": "ALIVE",
           "tls_version": "TLSv1.3",
           "type": "HTTPS_OK"
+        },
+        {
+          "at": "2026-09-11T17:00:11Z",
+          "http_status": 302,
+          "ip": "23.48.203.105",
+          "result": "ALIVE",
+          "tls_version": "TLSv1.3",
+          "type": "HTTPS_OK"
         }
       ],
       "history_failures": 0,
       "history_samples": 53,
       "history_successes": 53,
       "hostname": "in.tiktok.com",
-      "last_check": "2026-09-11T12:10:22Z",
+      "last_check": "2026-09-11T17:00:11Z",
       "last_failure": null,
       "last_ipv4": [
-        "173.222.162.138",
-        "173.222.162.144",
-        "173.222.162.145"
+        "23.48.203.105",
+        "23.48.203.106",
+        "23.48.203.110"
       ],
       "last_result": "ALIVE",
-      "last_success": "2026-09-11T12:10:22Z",
+      "last_success": "2026-09-11T17:00:11Z",
       "stability_score": 100.0,
       "status": "alive"
     },
@@ -2760,7 +2760,7 @@
         {
           "cipher": "TLS_AES_256_GCM_SHA384",
           "http_status": 200,
-          "ip": "173.222.162.138",
+          "ip": "23.212.249.211",
           "port": 443,
           "status": "HTTPS_OK",
           "tls_version": "TLSv1.3"
@@ -2772,14 +2772,6 @@
       "failure_since": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "history": [
-        {
-          "at": "2026-08-28T12:42:57Z",
-          "http_status": 200,
-          "ip": "23.200.156.18",
-          "result": "ALIVE",
-          "tls_version": "TLSv1.3",
-          "type": "HTTPS_OK"
-        },
         {
           "at": "2026-08-28T23:00:17Z",
           "http_status": 200,
@@ -3195,21 +3187,29 @@
           "result": "ALIVE",
           "tls_version": "TLSv1.3",
           "type": "HTTPS_OK"
+        },
+        {
+          "at": "2026-09-11T17:00:11Z",
+          "http_status": 200,
+          "ip": "23.212.249.211",
+          "result": "ALIVE",
+          "tls_version": "TLSv1.3",
+          "type": "HTTPS_OK"
         }
       ],
       "history_failures": 0,
       "history_samples": 53,
       "history_successes": 53,
       "hostname": "live-backstage.tiktok.com",
-      "last_check": "2026-09-11T12:10:22Z",
+      "last_check": "2026-09-11T17:00:11Z",
       "last_failure": null,
       "last_ipv4": [
-        "173.222.162.138",
-        "173.222.162.144",
-        "173.222.162.145"
+        "23.212.249.211",
+        "23.212.249.214",
+        "23.212.249.215"
       ],
       "last_result": "ALIVE",
-      "last_success": "2026-09-11T12:10:22Z",
+      "last_success": "2026-09-11T17:00:11Z",
       "stability_score": 100.0,
       "status": "alive"
     },
@@ -3218,7 +3218,7 @@
         {
           "cipher": "TLS_AES_256_GCM_SHA384",
           "http_status": 502,
-          "ip": "173.222.162.138",
+          "ip": "23.212.251.70",
           "port": 443,
           "status": "HTTPS_OK",
           "tls_version": "TLSv1.3"
@@ -3230,14 +3230,6 @@
       "failure_since": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "history": [
-        {
-          "at": "2026-08-28T12:42:57Z",
-          "http_status": 502,
-          "ip": "23.200.156.18",
-          "result": "ALIVE",
-          "tls_version": "TLSv1.3",
-          "type": "HTTPS_OK"
-        },
         {
           "at": "2026-08-28T23:00:17Z",
           "http_status": 502,
@@ -3653,21 +3645,29 @@
           "result": "ALIVE",
           "tls_version": "TLSv1.3",
           "type": "HTTPS_OK"
+        },
+        {
+          "at": "2026-09-11T17:00:11Z",
+          "http_status": 502,
+          "ip": "23.212.251.70",
+          "result": "ALIVE",
+          "tls_version": "TLSv1.3",
+          "type": "HTTPS_OK"
         }
       ],
       "history_failures": 0,
       "history_samples": 53,
       "history_successes": 53,
       "hostname": "music.tiktok.com",
-      "last_check": "2026-09-11T12:10:22Z",
+      "last_check": "2026-09-11T17:00:11Z",
       "last_failure": null,
       "last_ipv4": [
-        "173.222.162.138",
-        "173.222.162.145",
-        "173.222.162.147"
+        "23.212.251.70",
+        "23.212.251.72",
+        "23.212.251.78"
       ],
       "last_result": "ALIVE",
-      "last_success": "2026-09-11T12:10:22Z",
+      "last_success": "2026-09-11T17:00:11Z",
       "stability_score": 100.0,
       "status": "alive"
     },
@@ -3676,7 +3676,7 @@
         {
           "cipher": "TLS_AES_256_GCM_SHA384",
           "http_status": 404,
-          "ip": "23.197.86.155",
+          "ip": "2.18.67.77",
           "port": 443,
           "status": "HTTPS_OK",
           "tls_version": "TLSv1.3"
@@ -3688,14 +3688,6 @@
       "failure_since": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "history": [
-        {
-          "at": "2026-08-28T12:42:57Z",
-          "http_status": 404,
-          "ip": "23.220.144.18",
-          "result": "ALIVE",
-          "tls_version": "TLSv1.3",
-          "type": "HTTPS_OK"
-        },
         {
           "at": "2026-08-28T23:00:17Z",
           "http_status": 404,
@@ -4111,21 +4103,29 @@
           "result": "ALIVE",
           "tls_version": "TLSv1.3",
           "type": "HTTPS_OK"
+        },
+        {
+          "at": "2026-09-11T17:00:11Z",
+          "http_status": 404,
+          "ip": "2.18.67.77",
+          "result": "ALIVE",
+          "tls_version": "TLSv1.3",
+          "type": "HTTPS_OK"
         }
       ],
       "history_failures": 0,
       "history_samples": 53,
       "history_successes": 53,
       "hostname": "newsroom.tiktok.com",
-      "last_check": "2026-09-11T12:10:22Z",
+      "last_check": "2026-09-11T17:00:11Z",
       "last_failure": null,
       "last_ipv4": [
-        "23.197.86.155",
-        "23.197.86.194",
-        "23.210.216.73"
+        "2.18.67.77",
+        "2.18.67.93",
+        "23.215.0.10"
       ],
       "last_result": "ALIVE",
-      "last_success": "2026-09-11T12:10:22Z",
+      "last_success": "2026-09-11T17:00:11Z",
       "stability_score": 100.0,
       "status": "alive"
     },
@@ -4138,20 +4138,12 @@
           "status": "TIMEOUT"
         }
       ],
-      "consecutive_failures": 78,
+      "consecutive_failures": 79,
       "ever_alive": false,
-      "failure_observations": 78,
+      "failure_observations": 79,
       "failure_since": "2026-08-21T07:46:59Z",
       "first_seen": "2026-08-21T07:46:59Z",
       "history": [
-        {
-          "at": "2026-08-28T12:42:57Z",
-          "result": "FAILURE",
-          "statuses": [
-            "TIMEOUT"
-          ],
-          "type": "TIMEOUT"
-        },
         {
           "at": "2026-08-28T23:00:17Z",
           "result": "FAILURE",
@@ -4567,15 +4559,23 @@
             "TIMEOUT"
           ],
           "type": "TIMEOUT"
+        },
+        {
+          "at": "2026-09-11T17:00:11Z",
+          "result": "FAILURE",
+          "statuses": [
+            "TIMEOUT"
+          ],
+          "type": "TIMEOUT"
         }
       ],
       "history_failures": 53,
       "history_samples": 53,
       "history_successes": 0,
       "hostname": "notifications.tiktok.com",
-      "last_check": "2026-09-11T12:10:22Z",
+      "last_check": "2026-09-11T17:00:11Z",
       "last_failure": {
-        "at": "2026-09-11T12:10:22Z",
+        "at": "2026-09-11T17:00:11Z",
         "attempts": [
           {
             "detail": "timed out",
@@ -4602,7 +4602,7 @@
         {
           "cipher": "TLS_AES_256_GCM_SHA384",
           "http_status": 200,
-          "ip": "173.222.162.138",
+          "ip": "23.212.251.70",
           "port": 443,
           "status": "HTTPS_OK",
           "tls_version": "TLSv1.3"
@@ -4614,14 +4614,6 @@
       "failure_since": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "history": [
-        {
-          "at": "2026-08-28T12:42:57Z",
-          "http_status": 200,
-          "ip": "23.200.156.18",
-          "result": "ALIVE",
-          "tls_version": "TLSv1.3",
-          "type": "HTTPS_OK"
-        },
         {
           "at": "2026-08-28T23:00:17Z",
           "http_status": 200,
@@ -5037,21 +5029,29 @@
           "result": "ALIVE",
           "tls_version": "TLSv1.3",
           "type": "HTTPS_OK"
+        },
+        {
+          "at": "2026-09-11T17:00:11Z",
+          "http_status": 200,
+          "ip": "23.212.251.70",
+          "result": "ALIVE",
+          "tls_version": "TLSv1.3",
+          "type": "HTTPS_OK"
         }
       ],
       "history_failures": 0,
       "history_samples": 53,
       "history_successes": 53,
       "hostname": "safety-enforcement.tiktok.com",
-      "last_check": "2026-09-11T12:10:22Z",
+      "last_check": "2026-09-11T17:00:11Z",
       "last_failure": null,
       "last_ipv4": [
-        "173.222.162.138",
-        "173.222.162.144",
-        "173.222.162.145"
+        "23.212.251.70",
+        "23.212.251.72",
+        "23.212.251.78"
       ],
       "last_result": "ALIVE",
-      "last_success": "2026-09-11T12:10:22Z",
+      "last_success": "2026-09-11T17:00:11Z",
       "stability_score": 100.0,
       "status": "alive"
     },
@@ -5060,7 +5060,7 @@
         {
           "cipher": "TLS_AES_256_GCM_SHA384",
           "http_status": 200,
-          "ip": "173.222.162.138",
+          "ip": "23.48.203.105",
           "port": 443,
           "status": "HTTPS_OK",
           "tls_version": "TLSv1.3"
@@ -5072,14 +5072,6 @@
       "failure_since": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "history": [
-        {
-          "at": "2026-08-28T12:42:57Z",
-          "http_status": 200,
-          "ip": "23.200.156.18",
-          "result": "ALIVE",
-          "tls_version": "TLSv1.3",
-          "type": "HTTPS_OK"
-        },
         {
           "at": "2026-08-28T23:00:17Z",
           "http_status": 200,
@@ -5495,30 +5487,38 @@
           "result": "ALIVE",
           "tls_version": "TLSv1.3",
           "type": "HTTPS_OK"
+        },
+        {
+          "at": "2026-09-11T17:00:11Z",
+          "http_status": 200,
+          "ip": "23.48.203.105",
+          "result": "ALIVE",
+          "tls_version": "TLSv1.3",
+          "type": "HTTPS_OK"
         }
       ],
       "history_failures": 0,
       "history_samples": 53,
       "history_successes": 53,
       "hostname": "scm-us.tiktok.com",
-      "last_check": "2026-09-11T12:10:22Z",
+      "last_check": "2026-09-11T17:00:11Z",
       "last_failure": null,
       "last_ipv4": [
-        "173.222.162.138",
-        "173.222.162.144",
-        "173.222.162.145"
+        "23.48.203.105",
+        "23.48.203.106",
+        "23.48.203.110"
       ],
       "last_result": "ALIVE",
-      "last_success": "2026-09-11T12:10:22Z",
+      "last_success": "2026-09-11T17:00:11Z",
       "stability_score": 100.0,
       "status": "alive"
     },
     "seller-id.tiktok.com": {
       "attempts": [
         {
-          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cipher": "TLS_AES_256_GCM_SHA384",
           "http_status": 200,
-          "ip": "146.75.94.73",
+          "ip": "23.48.203.105",
           "port": 443,
           "status": "HTTPS_OK",
           "tls_version": "TLSv1.3"
@@ -5530,14 +5530,6 @@
       "failure_since": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "history": [
-        {
-          "at": "2026-08-28T12:42:57Z",
-          "http_status": 200,
-          "ip": "23.200.156.14",
-          "result": "ALIVE",
-          "tls_version": "TLSv1.3",
-          "type": "HTTPS_OK"
-        },
         {
           "at": "2026-08-28T23:00:17Z",
           "http_status": 200,
@@ -5953,21 +5945,29 @@
           "result": "ALIVE",
           "tls_version": "TLSv1.3",
           "type": "HTTPS_OK"
+        },
+        {
+          "at": "2026-09-11T17:00:11Z",
+          "http_status": 200,
+          "ip": "23.48.203.105",
+          "result": "ALIVE",
+          "tls_version": "TLSv1.3",
+          "type": "HTTPS_OK"
         }
       ],
       "history_failures": 0,
       "history_samples": 53,
       "history_successes": 53,
       "hostname": "seller-id.tiktok.com",
-      "last_check": "2026-09-11T12:10:22Z",
+      "last_check": "2026-09-11T17:00:11Z",
       "last_failure": null,
       "last_ipv4": [
-        "146.75.94.73",
-        "173.222.162.138",
-        "173.222.162.144"
+        "23.48.203.105",
+        "23.48.203.106",
+        "23.48.203.110"
       ],
       "last_result": "ALIVE",
-      "last_success": "2026-09-11T12:10:22Z",
+      "last_success": "2026-09-11T17:00:11Z",
       "stability_score": 100.0,
       "status": "alive"
     },
@@ -5975,7 +5975,7 @@
       "attempts": [
         {
           "cipher": "TLS_AES_256_GCM_SHA384",
-          "ip": "23.210.216.76",
+          "ip": "2.18.67.68",
           "port": 443,
           "status": "TLS_OK",
           "tls_version": "TLSv1.3"
@@ -5987,13 +5987,6 @@
       "failure_since": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "history": [
-        {
-          "at": "2026-08-28T12:42:57Z",
-          "ip": "23.192.223.199",
-          "result": "ALIVE",
-          "tls_version": "TLSv1.3",
-          "type": "TLS_OK"
-        },
         {
           "at": "2026-08-28T23:00:17Z",
           "ip": "104.96.163.88",
@@ -6358,21 +6351,28 @@
           "result": "ALIVE",
           "tls_version": "TLSv1.3",
           "type": "TLS_OK"
+        },
+        {
+          "at": "2026-09-11T17:00:11Z",
+          "ip": "2.18.67.68",
+          "result": "ALIVE",
+          "tls_version": "TLSv1.3",
+          "type": "TLS_OK"
         }
       ],
       "history_failures": 0,
       "history_samples": 53,
       "history_successes": 53,
       "hostname": "support.tiktok.com",
-      "last_check": "2026-09-11T12:10:22Z",
+      "last_check": "2026-09-11T17:00:11Z",
       "last_failure": null,
       "last_ipv4": [
-        "23.210.216.76",
-        "23.210.216.94",
-        "23.56.3.139"
+        "2.18.67.68",
+        "2.18.67.78",
+        "23.213.158.75"
       ],
       "last_result": "ALIVE",
-      "last_success": "2026-09-11T12:10:22Z",
+      "last_success": "2026-09-11T17:00:11Z",
       "stability_score": 100.0,
       "status": "alive"
     },
@@ -6381,7 +6381,7 @@
         {
           "cipher": "TLS_AES_256_GCM_SHA384",
           "http_status": 301,
-          "ip": "173.222.162.138",
+          "ip": "23.221.227.196",
           "port": 443,
           "status": "HTTPS_OK",
           "tls_version": "TLSv1.3"
@@ -6393,14 +6393,6 @@
       "failure_since": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "history": [
-        {
-          "at": "2026-08-28T12:42:57Z",
-          "http_status": 301,
-          "ip": "23.213.186.196",
-          "result": "ALIVE",
-          "tls_version": "TLSv1.3",
-          "type": "HTTPS_OK"
-        },
         {
           "at": "2026-08-28T23:00:17Z",
           "http_status": 301,
@@ -6816,21 +6808,29 @@
           "result": "ALIVE",
           "tls_version": "TLSv1.3",
           "type": "HTTPS_OK"
+        },
+        {
+          "at": "2026-09-11T17:00:11Z",
+          "http_status": 301,
+          "ip": "23.221.227.196",
+          "result": "ALIVE",
+          "tls_version": "TLSv1.3",
+          "type": "HTTPS_OK"
         }
       ],
       "history_failures": 0,
       "history_samples": 53,
       "history_successes": 53,
       "hostname": "tiktok.com",
-      "last_check": "2026-09-11T12:10:22Z",
+      "last_check": "2026-09-11T17:00:11Z",
       "last_failure": null,
       "last_ipv4": [
-        "173.222.162.138",
-        "173.222.162.145",
-        "173.222.162.147"
+        "23.221.227.196",
+        "23.221.227.202",
+        "23.221.227.203"
       ],
       "last_result": "ALIVE",
-      "last_success": "2026-09-11T12:10:22Z",
+      "last_success": "2026-09-11T17:00:11Z",
       "stability_score": 100.0,
       "status": "alive"
     },
@@ -6852,14 +6852,6 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "history": [
         {
-          "at": "2026-08-28T12:42:57Z",
-          "http_status": 503,
-          "ip": "18.198.163.56",
-          "result": "ALIVE",
-          "tls_version": "TLSv1.3",
-          "type": "HTTPS_OK"
-        },
-        {
           "at": "2026-08-28T23:00:17Z",
           "http_status": 503,
           "ip": "18.198.163.56",
@@ -7274,20 +7266,28 @@
           "result": "ALIVE",
           "tls_version": "TLSv1.3",
           "type": "HTTPS_OK"
+        },
+        {
+          "at": "2026-09-11T17:00:11Z",
+          "http_status": 503,
+          "ip": "18.198.163.56",
+          "result": "ALIVE",
+          "tls_version": "TLSv1.3",
+          "type": "HTTPS_OK"
         }
       ],
       "history_failures": 0,
       "history_samples": 53,
       "history_successes": 53,
       "hostname": "tracking.infobip.account.tiktok.com",
-      "last_check": "2026-09-11T12:10:22Z",
+      "last_check": "2026-09-11T17:00:11Z",
       "last_failure": null,
       "last_ipv4": [
         "18.198.163.56",
         "18.198.218.66"
       ],
       "last_result": "ALIVE",
-      "last_success": "2026-09-11T12:10:22Z",
+      "last_success": "2026-09-11T17:00:11Z",
       "stability_score": 100.0,
       "status": "alive"
     },
@@ -7309,14 +7309,6 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "history": [
         {
-          "at": "2026-08-28T12:42:57Z",
-          "http_status": 503,
-          "ip": "18.198.163.56",
-          "result": "ALIVE",
-          "tls_version": "TLSv1.3",
-          "type": "HTTPS_OK"
-        },
-        {
           "at": "2026-08-28T23:00:17Z",
           "http_status": 503,
           "ip": "18.198.163.56",
@@ -7731,20 +7723,28 @@
           "result": "ALIVE",
           "tls_version": "TLSv1.3",
           "type": "HTTPS_OK"
+        },
+        {
+          "at": "2026-09-11T17:00:11Z",
+          "http_status": 503,
+          "ip": "18.198.163.56",
+          "result": "ALIVE",
+          "tls_version": "TLSv1.3",
+          "type": "HTTPS_OK"
         }
       ],
       "history_failures": 0,
       "history_samples": 53,
       "history_successes": 53,
       "hostname": "tracking.infobip.service.tiktok.com",
-      "last_check": "2026-09-11T12:10:22Z",
+      "last_check": "2026-09-11T17:00:11Z",
       "last_failure": null,
       "last_ipv4": [
         "18.198.163.56",
         "18.198.218.66"
       ],
       "last_result": "ALIVE",
-      "last_success": "2026-09-11T12:10:22Z",
+      "last_success": "2026-09-11T17:00:11Z",
       "stability_score": 100.0,
       "status": "alive"
     },
@@ -7753,7 +7753,7 @@
         {
           "cipher": "TLS_AES_256_GCM_SHA384",
           "http_status": 404,
-          "ip": "173.222.162.138",
+          "ip": "23.48.203.105",
           "port": 443,
           "status": "HTTPS_OK",
           "tls_version": "TLSv1.3"
@@ -7765,14 +7765,6 @@
       "failure_since": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "history": [
-        {
-          "at": "2026-08-28T12:42:57Z",
-          "http_status": 404,
-          "ip": "23.200.156.14",
-          "result": "ALIVE",
-          "tls_version": "TLSv1.3",
-          "type": "HTTPS_OK"
-        },
         {
           "at": "2026-08-28T23:00:17Z",
           "http_status": 404,
@@ -8188,21 +8180,29 @@
           "result": "ALIVE",
           "tls_version": "TLSv1.3",
           "type": "HTTPS_OK"
+        },
+        {
+          "at": "2026-09-11T17:00:11Z",
+          "http_status": 404,
+          "ip": "23.48.203.105",
+          "result": "ALIVE",
+          "tls_version": "TLSv1.3",
+          "type": "HTTPS_OK"
         }
       ],
       "history_failures": 0,
       "history_samples": 53,
       "history_successes": 53,
       "hostname": "tv.tiktok.com",
-      "last_check": "2026-09-11T12:10:22Z",
+      "last_check": "2026-09-11T17:00:11Z",
       "last_failure": null,
       "last_ipv4": [
-        "173.222.162.138",
-        "173.222.162.144",
-        "173.222.162.145"
+        "23.48.203.105",
+        "23.48.203.106",
+        "23.48.203.110"
       ],
       "last_result": "ALIVE",
-      "last_success": "2026-09-11T12:10:22Z",
+      "last_success": "2026-09-11T17:00:11Z",
       "stability_score": 100.0,
       "status": "alive"
     },
@@ -8211,7 +8211,7 @@
         {
           "cipher": "TLS_AES_256_GCM_SHA384",
           "http_status": 200,
-          "ip": "23.44.229.203",
+          "ip": "23.215.0.164",
           "port": 443,
           "status": "HTTPS_OK",
           "tls_version": "TLSv1.3"
@@ -8223,13 +8223,6 @@
       "failure_since": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "history": [
-        {
-          "at": "2026-08-28T12:42:57Z",
-          "ip": "23.33.22.69",
-          "result": "ALIVE",
-          "tls_version": "TLSv1.3",
-          "type": "TLS_OK"
-        },
         {
           "at": "2026-08-28T23:00:17Z",
           "http_status": 200,
@@ -8643,21 +8636,29 @@
           "result": "ALIVE",
           "tls_version": "TLSv1.3",
           "type": "HTTPS_OK"
+        },
+        {
+          "at": "2026-09-11T17:00:11Z",
+          "http_status": 200,
+          "ip": "23.215.0.164",
+          "result": "ALIVE",
+          "tls_version": "TLSv1.3",
+          "type": "HTTPS_OK"
         }
       ],
       "history_failures": 0,
       "history_samples": 53,
       "history_successes": 53,
       "hostname": "us.tiktok.com",
-      "last_check": "2026-09-11T12:10:22Z",
+      "last_check": "2026-09-11T17:00:11Z",
       "last_failure": null,
       "last_ipv4": [
-        "23.44.229.203",
-        "23.44.229.204",
-        "23.44.229.206"
+        "23.215.0.164",
+        "23.215.0.167",
+        "23.215.0.168"
       ],
       "last_result": "ALIVE",
-      "last_success": "2026-09-11T12:10:22Z",
+      "last_success": "2026-09-11T17:00:11Z",
       "stability_score": 100.0,
       "status": "alive"
     },
@@ -8666,7 +8667,7 @@
         {
           "cipher": "TLS_AES_256_GCM_SHA384",
           "http_status": 200,
-          "ip": "23.66.3.76",
+          "ip": "23.223.247.197",
           "port": 443,
           "status": "HTTPS_OK",
           "tls_version": "TLSv1.3"
@@ -8678,13 +8679,6 @@
       "failure_since": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "history": [
-        {
-          "at": "2026-08-28T12:42:57Z",
-          "ip": "23.212.185.69",
-          "result": "ALIVE",
-          "tls_version": "TLSv1.3",
-          "type": "TLS_OK"
-        },
         {
           "at": "2026-08-28T23:00:17Z",
           "ip": "2.22.234.133",
@@ -9098,25 +9092,33 @@
           "result": "ALIVE",
           "tls_version": "TLSv1.3",
           "type": "HTTPS_OK"
+        },
+        {
+          "at": "2026-09-11T17:00:11Z",
+          "http_status": 200,
+          "ip": "23.223.247.197",
+          "result": "ALIVE",
+          "tls_version": "TLSv1.3",
+          "type": "HTTPS_OK"
         }
       ],
       "history_failures": 0,
       "history_samples": 53,
       "history_successes": 53,
       "hostname": "www.tiktok.com",
-      "last_check": "2026-09-11T12:10:22Z",
+      "last_check": "2026-09-11T17:00:11Z",
       "last_failure": null,
       "last_ipv4": [
-        "23.66.3.76",
-        "23.66.3.77",
-        "23.66.3.78"
+        "23.223.247.197",
+        "23.223.247.198",
+        "23.223.247.205"
       ],
       "last_result": "ALIVE",
-      "last_success": "2026-09-11T12:10:22Z",
+      "last_success": "2026-09-11T17:00:11Z",
       "stability_score": 100.0,
       "status": "alive"
     }
   },
-  "updated_at": "2026-09-11T12:10:22Z",
+  "updated_at": "2026-09-11T17:00:11Z",
   "version": 3
 }
