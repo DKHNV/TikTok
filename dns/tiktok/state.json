@@ -2,18 +2,18 @@
   "hosts": {
     "abs-session.tiktok.com": {
       "canonical_name": null,
-      "consecutive_negative_checks": 64,
+      "consecutive_negative_checks": 65,
       "ever_validated": false,
       "expired_at": null,
       "first_seen": "2026-10-21T05:58:43Z",
       "hostname": "abs-session.tiktok.com",
       "ipv4": [],
-      "last_check": "2026-11-12T09:43:39Z",
-      "last_failure": "2026-11-12T09:43:39Z",
-      "last_negative": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
+      "last_failure": "2026-11-12T21:26:48Z",
+      "last_negative": "2026-11-12T21:26:48Z",
       "last_result": "NEGATIVE",
       "last_success": null,
-      "negative_observations": 64,
+      "negative_observations": 65,
       "negative_since": "2026-10-21T05:58:43Z",
       "quarantined_at": "2026-10-28T08:21:43Z",
       "resolver_results": {
@@ -26,9 +26,8 @@
           "status": "NXDOMAIN"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.204 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
           "ipv4": [],
-          "status": "TIMEOUT"
+          "status": "NXDOMAIN"
         }
       },
       "safety_reason": null,
@@ -45,15 +44,17 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "accounts.scm-us.tiktok.com",
       "ipv4": [
-        "23.32.1.239",
-        "23.32.1.241",
-        "23.62.226.137",
-        "23.62.226.143"
+        "23.51.25.68",
+        "23.51.25.211",
+        "23.195.81.64",
+        "23.195.81.96",
+        "23.217.104.109",
+        "23.217.104.113"
       ],
-      "last_check": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-11-12T09:43:39Z",
+      "last_success": "2026-11-12T21:26:48Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -61,23 +62,26 @@
         "1.1.1.1": {
           "canonical_name": "a816.t.akamai.net",
           "ipv4": [
-            "23.32.1.239",
-            "23.32.1.241"
+            "23.217.104.109",
+            "23.217.104.113"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "a816.t.akamai.net",
           "ipv4": [
-            "23.62.226.137",
-            "23.62.226.143"
+            "23.195.81.64",
+            "23.195.81.96"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.202 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
-          "ipv4": [],
-          "status": "TIMEOUT"
+          "canonical_name": "a816.t.akamai.net",
+          "ipv4": [
+            "23.51.25.68",
+            "23.51.25.211"
+          ],
+          "status": "OK"
         }
       },
       "safety_reason": null,
@@ -96,10 +100,10 @@
       "ipv4": [
         "209.127.230.4"
       ],
-      "last_check": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-11-12T09:43:39Z",
+      "last_success": "2026-11-12T21:26:48Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -119,9 +123,11 @@
           "status": "OK"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.201 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
-          "ipv4": [],
-          "status": "TIMEOUT"
+          "canonical_name": "ads-service.tiktok.com",
+          "ipv4": [
+            "209.127.230.4"
+          ],
+          "status": "OK"
         }
       },
       "safety_reason": null,
@@ -141,10 +147,10 @@
         "199.60.103.28",
         "199.60.103.228"
       ],
-      "last_check": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-11-12T09:43:39Z",
+      "last_success": "2026-11-12T21:26:48Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -166,9 +172,12 @@
           "status": "OK"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.202 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
-          "ipv4": [],
-          "status": "TIMEOUT"
+          "canonical_name": "group47.sites.hscoscdn40.net",
+          "ipv4": [
+            "199.60.103.28",
+            "199.60.103.228"
+          ],
+          "status": "OK"
         }
       },
       "safety_reason": null,
@@ -221,15 +230,17 @@
       "first_seen": "2026-08-21T07:37:46Z",
       "hostname": "developers.tiktok.com",
       "ipv4": [
-        "23.220.73.66",
-        "23.220.73.67",
-        "96.7.181.12",
-        "96.7.181.34"
+        "23.195.81.9",
+        "23.195.81.51",
+        "104.88.206.86",
+        "104.88.206.89",
+        "184.25.119.14",
+        "184.25.119.30"
       ],
-      "last_check": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-11-12T09:43:39Z",
+      "last_success": "2026-11-12T21:26:48Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -237,23 +248,26 @@
         "1.1.1.1": {
           "canonical_name": "a1851.r.akamai.net",
           "ipv4": [
-            "96.7.181.12",
-            "96.7.181.34"
+            "184.25.119.14",
+            "184.25.119.30"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "a1851.r.akamai.net",
           "ipv4": [
-            "23.220.73.66",
-            "23.220.73.67"
+            "23.195.81.9",
+            "23.195.81.51"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.203 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
-          "ipv4": [],
-          "status": "TIMEOUT"
+          "canonical_name": "a1851.r.akamai.net",
+          "ipv4": [
+            "104.88.206.86",
+            "104.88.206.89"
+          ],
+          "status": "OK"
         }
       },
       "safety_reason": null,
@@ -378,15 +392,17 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "eu.safety-enforcement.tiktok.com",
       "ipv4": [
-        "23.32.1.147",
-        "23.32.1.216",
-        "23.62.226.136",
-        "23.62.226.140"
+        "23.51.25.148",
+        "23.59.177.86",
+        "23.195.81.82",
+        "23.195.81.112",
+        "23.215.11.146",
+        "184.25.59.4"
       ],
-      "last_check": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-11-12T09:43:39Z",
+      "last_success": "2026-11-12T21:26:48Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -394,23 +410,26 @@
         "1.1.1.1": {
           "canonical_name": "a673.t.akamai.net",
           "ipv4": [
-            "23.32.1.147",
-            "23.32.1.216"
+            "23.59.177.86",
+            "184.25.59.4"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "a673.t.akamai.net",
           "ipv4": [
-            "23.62.226.136",
-            "23.62.226.140"
+            "23.195.81.82",
+            "23.195.81.112"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.203 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
-          "ipv4": [],
-          "status": "TIMEOUT"
+          "canonical_name": "a673.t.akamai.net",
+          "ipv4": [
+            "23.51.25.148",
+            "23.215.11.146"
+          ],
+          "status": "OK"
         }
       },
       "safety_reason": null,
@@ -463,23 +482,22 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "in.tiktok.com",
       "ipv4": [
-        "23.62.226.116",
-        "23.62.226.117",
-        "23.62.226.121",
-        "173.222.162.138",
-        "173.222.162.144",
-        "173.222.162.147",
-        "173.222.162.149",
-        "173.222.162.155",
-        "173.222.162.156",
-        "173.222.162.157",
-        "173.222.162.173",
-        "173.222.162.181"
+        "23.47.72.18",
+        "23.47.72.19",
+        "23.217.55.42",
+        "23.217.55.52",
+        "23.217.55.62",
+        "23.217.55.73",
+        "23.220.161.68",
+        "23.220.161.69",
+        "23.220.161.74",
+        "23.220.161.78",
+        "23.220.161.89"
       ],
-      "last_check": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-11-12T09:43:39Z",
+      "last_success": "2026-11-12T21:26:48Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -487,31 +505,31 @@
         "1.1.1.1": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "173.222.162.138",
-            "173.222.162.144",
-            "173.222.162.147",
-            "173.222.162.149",
-            "173.222.162.155",
-            "173.222.162.156",
-            "173.222.162.157",
-            "173.222.162.173",
-            "173.222.162.181"
+            "23.217.55.42",
+            "23.217.55.52",
+            "23.217.55.62",
+            "23.217.55.73"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.62.226.116",
-            "23.62.226.117",
-            "23.62.226.121"
+            "23.220.161.68",
+            "23.220.161.69",
+            "23.220.161.74",
+            "23.220.161.78",
+            "23.220.161.89"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.203 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
-          "ipv4": [],
-          "status": "TIMEOUT"
+          "canonical_name": "e35058.a.akamaiedge.net",
+          "ipv4": [
+            "23.47.72.18",
+            "23.47.72.19"
+          ],
+          "status": "OK"
         }
       },
       "safety_reason": null,
@@ -564,23 +582,23 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "live-backstage.tiktok.com",
       "ipv4": [
-        "23.62.226.116",
-        "23.62.226.117",
-        "23.62.226.121",
-        "173.222.162.149",
-        "173.222.162.153",
-        "173.222.162.160",
-        "173.222.162.164",
-        "173.222.162.168",
-        "173.222.162.172",
-        "173.222.162.181",
-        "173.222.162.190",
-        "173.222.162.191"
+        "23.200.156.71",
+        "23.200.156.74",
+        "23.200.156.76",
+        "23.200.156.80",
+        "23.200.156.81",
+        "23.205.249.186",
+        "23.205.249.194",
+        "23.220.161.68",
+        "23.220.161.69",
+        "23.220.161.74",
+        "23.220.161.78",
+        "23.220.161.89"
       ],
-      "last_check": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-11-12T09:43:39Z",
+      "last_success": "2026-11-12T21:26:48Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -588,31 +606,32 @@
         "1.1.1.1": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "173.222.162.149",
-            "173.222.162.153",
-            "173.222.162.160",
-            "173.222.162.164",
-            "173.222.162.168",
-            "173.222.162.172",
-            "173.222.162.181",
-            "173.222.162.190",
-            "173.222.162.191"
+            "23.200.156.71",
+            "23.200.156.74",
+            "23.200.156.76",
+            "23.200.156.80",
+            "23.200.156.81"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.62.226.116",
-            "23.62.226.117",
-            "23.62.226.121"
+            "23.220.161.68",
+            "23.220.161.69",
+            "23.220.161.74",
+            "23.220.161.78",
+            "23.220.161.89"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.203 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
-          "ipv4": [],
-          "status": "TIMEOUT"
+          "canonical_name": "e35058.a.akamaiedge.net",
+          "ipv4": [
+            "23.205.249.186",
+            "23.205.249.194"
+          ],
+          "status": "OK"
         }
       },
       "safety_reason": null,
@@ -623,18 +642,18 @@
     },
     "mi-marketing.tiktok.com": {
       "canonical_name": null,
-      "consecutive_negative_checks": 41,
+      "consecutive_negative_checks": 42,
       "ever_validated": false,
       "expired_at": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "mi-marketing.tiktok.com",
       "ipv4": [],
-      "last_check": "2026-11-12T09:43:39Z",
-      "last_failure": "2026-11-12T09:43:39Z",
-      "last_negative": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
+      "last_failure": "2026-11-12T21:26:48Z",
+      "last_negative": "2026-11-12T21:26:48Z",
       "last_result": "NEGATIVE",
       "last_success": null,
-      "negative_observations": 41,
+      "negative_observations": 42,
       "negative_since": "2026-10-27T07:44:11Z",
       "quarantined_at": "2026-11-03T09:27:13Z",
       "resolver_results": {
@@ -647,9 +666,8 @@
           "status": "NO_A"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.203 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
           "ipv4": [],
-          "status": "TIMEOUT"
+          "status": "NO_A"
         }
       },
       "safety_reason": null,
@@ -666,23 +684,22 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "music.tiktok.com",
       "ipv4": [
-        "23.62.226.116",
-        "23.62.226.117",
-        "23.62.226.121",
-        "173.222.162.139",
-        "173.222.162.140",
-        "173.222.162.142",
-        "173.222.162.152",
-        "173.222.162.163",
-        "173.222.162.165",
-        "173.222.162.182",
-        "173.222.162.186",
-        "173.222.162.189"
+        "23.47.72.18",
+        "23.47.72.19",
+        "23.217.55.42",
+        "23.217.55.52",
+        "23.217.55.62",
+        "23.217.55.73",
+        "23.220.161.68",
+        "23.220.161.69",
+        "23.220.161.74",
+        "23.220.161.78",
+        "23.220.161.89"
       ],
-      "last_check": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-11-12T09:43:39Z",
+      "last_success": "2026-11-12T21:26:48Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -690,31 +707,31 @@
         "1.1.1.1": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "173.222.162.139",
-            "173.222.162.140",
-            "173.222.162.142",
-            "173.222.162.152",
-            "173.222.162.163",
-            "173.222.162.165",
-            "173.222.162.182",
-            "173.222.162.186",
-            "173.222.162.189"
+            "23.217.55.42",
+            "23.217.55.52",
+            "23.217.55.62",
+            "23.217.55.73"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.62.226.116",
-            "23.62.226.117",
-            "23.62.226.121"
+            "23.220.161.68",
+            "23.220.161.69",
+            "23.220.161.74",
+            "23.220.161.78",
+            "23.220.161.89"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.203 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
-          "ipv4": [],
-          "status": "TIMEOUT"
+          "canonical_name": "e35058.a.akamaiedge.net",
+          "ipv4": [
+            "23.47.72.18",
+            "23.47.72.19"
+          ],
+          "status": "OK"
         }
       },
       "safety_reason": null,
@@ -731,15 +748,17 @@
       "first_seen": "2026-08-21T07:37:46Z",
       "hostname": "newsroom.tiktok.com",
       "ipv4": [
-        "23.220.73.67",
-        "23.220.73.77",
-        "184.28.81.203",
-        "184.28.81.222"
+        "23.195.81.17",
+        "23.195.81.24",
+        "23.220.102.7",
+        "23.220.102.14",
+        "184.25.119.44",
+        "184.25.119.53"
       ],
-      "last_check": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-11-12T09:43:39Z",
+      "last_success": "2026-11-12T21:26:48Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -747,23 +766,26 @@
         "1.1.1.1": {
           "canonical_name": "a1991.r.akamai.net",
           "ipv4": [
-            "184.28.81.203",
-            "184.28.81.222"
+            "184.25.119.44",
+            "184.25.119.53"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "a1991.r.akamai.net",
           "ipv4": [
-            "23.220.73.67",
-            "23.220.73.77"
+            "23.195.81.17",
+            "23.195.81.24"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.204 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
-          "ipv4": [],
-          "status": "TIMEOUT"
+          "canonical_name": "a1991.r.akamai.net",
+          "ipv4": [
+            "23.220.102.7",
+            "23.220.102.14"
+          ],
+          "status": "OK"
         }
       },
       "safety_reason": null,
@@ -782,10 +804,10 @@
       "ipv4": [
         "130.44.213.67"
       ],
-      "last_check": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-11-12T09:43:39Z",
+      "last_success": "2026-11-12T21:26:48Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -805,9 +827,11 @@
           "status": "OK"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.203 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
-          "ipv4": [],
-          "status": "TIMEOUT"
+          "canonical_name": "notifications.tiktok.com",
+          "ipv4": [
+            "130.44.213.67"
+          ],
+          "status": "OK"
         }
       },
       "safety_reason": null,
@@ -818,18 +842,18 @@
     },
     "partner-us.tiktok.com": {
       "canonical_name": null,
-      "consecutive_negative_checks": 80,
+      "consecutive_negative_checks": 81,
       "ever_validated": false,
       "expired_at": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "partner-us.tiktok.com",
       "ipv4": [],
-      "last_check": "2026-11-12T09:43:39Z",
-      "last_failure": "2026-11-12T09:43:39Z",
-      "last_negative": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
+      "last_failure": "2026-11-12T21:26:48Z",
+      "last_negative": "2026-11-12T21:26:48Z",
       "last_result": "NEGATIVE",
       "last_success": null,
-      "negative_observations": 80,
+      "negative_observations": 81,
       "negative_since": "2026-10-16T22:02:26Z",
       "quarantined_at": "2026-10-23T22:03:57Z",
       "resolver_results": {
@@ -842,9 +866,8 @@
           "status": "NO_A"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.203 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
           "ipv4": [],
-          "status": "TIMEOUT"
+          "status": "NO_A"
         }
       },
       "safety_reason": null,
@@ -861,23 +884,22 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "safety-enforcement.tiktok.com",
       "ipv4": [
-        "23.62.226.116",
-        "23.62.226.117",
-        "23.62.226.121",
-        "173.222.162.142",
-        "173.222.162.153",
-        "173.222.162.163",
-        "173.222.162.164",
-        "173.222.162.167",
-        "173.222.162.182",
-        "173.222.162.184",
-        "173.222.162.189",
-        "173.222.162.190"
+        "23.205.249.186",
+        "23.205.249.194",
+        "23.217.55.42",
+        "23.217.55.52",
+        "23.217.55.62",
+        "23.217.55.73",
+        "23.220.161.68",
+        "23.220.161.69",
+        "23.220.161.74",
+        "23.220.161.78",
+        "23.220.161.89"
       ],
-      "last_check": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-11-12T09:43:39Z",
+      "last_success": "2026-11-12T21:26:48Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -885,31 +907,31 @@
         "1.1.1.1": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "173.222.162.142",
-            "173.222.162.153",
-            "173.222.162.163",
-            "173.222.162.164",
-            "173.222.162.167",
-            "173.222.162.182",
-            "173.222.162.184",
-            "173.222.162.189",
-            "173.222.162.190"
+            "23.217.55.42",
+            "23.217.55.52",
+            "23.217.55.62",
+            "23.217.55.73"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.62.226.116",
-            "23.62.226.117",
-            "23.62.226.121"
+            "23.220.161.68",
+            "23.220.161.69",
+            "23.220.161.74",
+            "23.220.161.78",
+            "23.220.161.89"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.203 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
-          "ipv4": [],
-          "status": "TIMEOUT"
+          "canonical_name": "e35058.a.akamaiedge.net",
+          "ipv4": [
+            "23.205.249.186",
+            "23.205.249.194"
+          ],
+          "status": "OK"
         }
       },
       "safety_reason": null,
@@ -926,23 +948,23 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "scm-us.tiktok.com",
       "ipv4": [
-        "23.62.226.116",
-        "23.62.226.117",
-        "23.62.226.121",
-        "173.222.162.139",
-        "173.222.162.140",
-        "173.222.162.142",
-        "173.222.162.152",
-        "173.222.162.165",
-        "173.222.162.166",
-        "173.222.162.182",
-        "173.222.162.186",
-        "173.222.162.189"
+        "23.205.249.186",
+        "23.205.249.194",
+        "23.217.55.42",
+        "23.217.55.46",
+        "23.217.55.52",
+        "23.217.55.62",
+        "23.217.55.73",
+        "23.220.161.68",
+        "23.220.161.69",
+        "23.220.161.74",
+        "23.220.161.78",
+        "23.220.161.89"
       ],
-      "last_check": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-11-12T09:43:39Z",
+      "last_success": "2026-11-12T21:26:48Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -950,31 +972,32 @@
         "1.1.1.1": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "173.222.162.139",
-            "173.222.162.140",
-            "173.222.162.142",
-            "173.222.162.152",
-            "173.222.162.165",
-            "173.222.162.166",
-            "173.222.162.182",
-            "173.222.162.186",
-            "173.222.162.189"
+            "23.217.55.42",
+            "23.217.55.46",
+            "23.217.55.52",
+            "23.217.55.62",
+            "23.217.55.73"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.62.226.116",
-            "23.62.226.117",
-            "23.62.226.121"
+            "23.220.161.68",
+            "23.220.161.69",
+            "23.220.161.74",
+            "23.220.161.78",
+            "23.220.161.89"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.203 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
-          "ipv4": [],
-          "status": "TIMEOUT"
+          "canonical_name": "e35058.a.akamaiedge.net",
+          "ipv4": [
+            "23.205.249.186",
+            "23.205.249.194"
+          ],
+          "status": "OK"
         }
       },
       "safety_reason": null,
@@ -984,30 +1007,28 @@
       "status": "active"
     },
     "seller-id.tiktok.com": {
-      "canonical_name": "e35058.a.akamaiedge.net",
+      "canonical_name": "api.bytedance.map.fastly.net",
       "consecutive_negative_checks": 0,
       "ever_validated": true,
       "expired_at": null,
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "seller-id.tiktok.com",
       "ipv4": [
-        "23.62.226.116",
-        "23.62.226.117",
-        "23.62.226.121",
-        "173.222.162.139",
-        "173.222.162.140",
-        "173.222.162.142",
-        "173.222.162.152",
-        "173.222.162.163",
-        "173.222.162.167",
-        "173.222.162.182",
-        "173.222.162.186",
-        "173.222.162.189"
+        "23.200.156.71",
+        "23.200.156.74",
+        "23.200.156.80",
+        "23.200.156.81",
+        "23.220.161.68",
+        "23.220.161.69",
+        "23.220.161.74",
+        "23.220.161.78",
+        "23.220.161.89",
+        "146.75.82.73"
       ],
-      "last_check": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-11-12T09:43:39Z",
+      "last_success": "2026-11-12T21:26:48Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -1015,31 +1036,30 @@
         "1.1.1.1": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "173.222.162.139",
-            "173.222.162.140",
-            "173.222.162.142",
-            "173.222.162.152",
-            "173.222.162.163",
-            "173.222.162.167",
-            "173.222.162.182",
-            "173.222.162.186",
-            "173.222.162.189"
+            "23.200.156.71",
+            "23.200.156.74",
+            "23.200.156.80",
+            "23.200.156.81"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.62.226.116",
-            "23.62.226.117",
-            "23.62.226.121"
+            "23.220.161.68",
+            "23.220.161.69",
+            "23.220.161.74",
+            "23.220.161.78",
+            "23.220.161.89"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.203 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
-          "ipv4": [],
-          "status": "TIMEOUT"
+          "canonical_name": "api.bytedance.map.fastly.net",
+          "ipv4": [
+            "146.75.82.73"
+          ],
+          "status": "OK"
         }
       },
       "safety_reason": null,
@@ -1056,15 +1076,17 @@
       "first_seen": "2026-08-21T07:37:46Z",
       "hostname": "support.tiktok.com",
       "ipv4": [
-        "23.211.246.197",
-        "23.211.246.209",
-        "23.220.73.69",
-        "23.220.73.79"
+        "23.195.81.48",
+        "23.195.81.49",
+        "23.220.102.10",
+        "23.220.102.33",
+        "184.25.119.9",
+        "184.25.119.17"
       ],
-      "last_check": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-11-12T09:43:39Z",
+      "last_success": "2026-11-12T21:26:48Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -1072,23 +1094,26 @@
         "1.1.1.1": {
           "canonical_name": "a1933.r.akamai.net",
           "ipv4": [
-            "23.211.246.197",
-            "23.211.246.209"
+            "184.25.119.9",
+            "184.25.119.17"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "a1933.r.akamai.net",
           "ipv4": [
-            "23.220.73.69",
-            "23.220.73.79"
+            "23.195.81.48",
+            "23.195.81.49"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.203 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
-          "ipv4": [],
-          "status": "TIMEOUT"
+          "canonical_name": "a1933.r.akamai.net",
+          "ipv4": [
+            "23.220.102.10",
+            "23.220.102.33"
+          ],
+          "status": "OK"
         }
       },
       "safety_reason": null,
@@ -1105,20 +1130,24 @@
       "first_seen": "2026-08-21T07:37:46Z",
       "hostname": "tiktok.com",
       "ipv4": [
-        "23.62.226.116",
-        "23.62.226.117",
-        "23.62.226.121",
-        "173.223.234.196",
-        "173.223.234.197",
-        "173.223.234.199",
-        "173.223.234.200",
-        "173.223.234.206",
-        "173.223.234.208"
+        "23.47.72.4",
+        "23.47.72.18",
+        "23.47.72.19",
+        "23.200.156.71",
+        "23.200.156.74",
+        "23.200.156.76",
+        "23.200.156.80",
+        "23.200.156.81",
+        "23.220.161.68",
+        "23.220.161.69",
+        "23.220.161.74",
+        "23.220.161.78",
+        "23.220.161.89"
       ],
-      "last_check": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-11-12T09:43:39Z",
+      "last_success": "2026-11-12T21:26:48Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -1126,28 +1155,33 @@
         "1.1.1.1": {
           "canonical_name": "tiktok.com",
           "ipv4": [
-            "173.223.234.196",
-            "173.223.234.197",
-            "173.223.234.199",
-            "173.223.234.200",
-            "173.223.234.206",
-            "173.223.234.208"
+            "23.200.156.71",
+            "23.200.156.74",
+            "23.200.156.76",
+            "23.200.156.80",
+            "23.200.156.81"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "tiktok.com",
           "ipv4": [
-            "23.62.226.116",
-            "23.62.226.117",
-            "23.62.226.121"
+            "23.220.161.68",
+            "23.220.161.69",
+            "23.220.161.74",
+            "23.220.161.78",
+            "23.220.161.89"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.203 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
-          "ipv4": [],
-          "status": "TIMEOUT"
+          "canonical_name": "tiktok.com",
+          "ipv4": [
+            "23.47.72.4",
+            "23.47.72.18",
+            "23.47.72.19"
+          ],
+          "status": "OK"
         }
       },
       "safety_reason": null,
@@ -1168,10 +1202,10 @@
         "18.198.163.56",
         "18.198.218.66"
       ],
-      "last_check": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-11-12T09:43:39Z",
+      "last_success": "2026-11-12T21:26:48Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -1193,9 +1227,12 @@
           "status": "OK"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.204 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
-          "ipv4": [],
-          "status": "TIMEOUT"
+          "canonical_name": "email-tracking.infobip.com",
+          "ipv4": [
+            "18.198.163.56",
+            "18.198.218.66"
+          ],
+          "status": "OK"
         }
       },
       "safety_reason": null,
@@ -1215,10 +1252,10 @@
         "18.198.163.56",
         "18.198.218.66"
       ],
-      "last_check": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-11-12T09:43:39Z",
+      "last_success": "2026-11-12T21:26:48Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -1240,9 +1277,12 @@
           "status": "OK"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.203 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
-          "ipv4": [],
-          "status": "TIMEOUT"
+          "canonical_name": "email-tracking.infobip.com",
+          "ipv4": [
+            "18.198.163.56",
+            "18.198.218.66"
+          ],
+          "status": "OK"
         }
       },
       "safety_reason": null,
@@ -1259,23 +1299,22 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "tv.tiktok.com",
       "ipv4": [
-        "23.62.226.116",
-        "23.62.226.117",
-        "23.62.226.121",
-        "173.222.162.139",
-        "173.222.162.140",
-        "173.222.162.142",
-        "173.222.162.152",
-        "173.222.162.165",
-        "173.222.162.166",
-        "173.222.162.182",
-        "173.222.162.186",
-        "173.222.162.189"
+        "23.33.29.134",
+        "23.33.29.139",
+        "23.33.29.149",
+        "23.33.29.150",
+        "23.47.72.18",
+        "23.47.72.19",
+        "23.220.161.68",
+        "23.220.161.69",
+        "23.220.161.74",
+        "23.220.161.78",
+        "23.220.161.89"
       ],
-      "last_check": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-11-12T09:43:39Z",
+      "last_success": "2026-11-12T21:26:48Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -1283,31 +1322,31 @@
         "1.1.1.1": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "173.222.162.139",
-            "173.222.162.140",
-            "173.222.162.142",
-            "173.222.162.152",
-            "173.222.162.165",
-            "173.222.162.166",
-            "173.222.162.182",
-            "173.222.162.186",
-            "173.222.162.189"
+            "23.33.29.134",
+            "23.33.29.139",
+            "23.33.29.149",
+            "23.33.29.150"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "e35058.a.akamaiedge.net",
           "ipv4": [
-            "23.62.226.116",
-            "23.62.226.117",
-            "23.62.226.121"
+            "23.220.161.68",
+            "23.220.161.69",
+            "23.220.161.74",
+            "23.220.161.78",
+            "23.220.161.89"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.203 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
-          "ipv4": [],
-          "status": "TIMEOUT"
+          "canonical_name": "e35058.a.akamaiedge.net",
+          "ipv4": [
+            "23.47.72.18",
+            "23.47.72.19"
+          ],
+          "status": "OK"
         }
       },
       "safety_reason": null,
@@ -1324,29 +1363,38 @@
       "first_seen": "2026-08-21T07:46:59Z",
       "hostname": "us.tiktok.com",
       "ipv4": [
-        "23.66.3.72",
-        "23.66.3.75",
-        "23.66.3.77",
-        "23.66.3.78",
-        "23.66.3.79",
-        "23.66.3.84",
-        "23.66.3.86",
-        "23.66.3.89",
-        "23.66.3.92",
-        "23.220.73.39",
-        "23.220.73.40",
-        "23.220.73.51",
-        "23.220.73.53",
-        "23.220.73.54",
-        "23.220.73.55",
-        "23.220.73.57",
-        "23.220.73.58",
-        "23.220.73.59"
+        "23.192.223.196",
+        "23.192.223.197",
+        "23.192.223.198",
+        "23.192.223.200",
+        "23.192.223.204",
+        "23.192.223.205",
+        "23.192.223.206",
+        "23.192.223.207",
+        "23.192.223.208",
+        "23.195.81.58",
+        "23.195.81.81",
+        "23.195.81.88",
+        "23.195.81.89",
+        "23.195.81.91",
+        "23.195.81.98",
+        "23.195.81.120",
+        "23.195.81.121",
+        "23.195.81.122",
+        "23.200.156.207",
+        "23.200.156.208",
+        "23.200.156.209",
+        "23.200.156.210",
+        "23.200.156.211",
+        "23.200.156.212",
+        "23.200.156.213",
+        "23.200.156.215",
+        "23.200.156.216"
       ],
-      "last_check": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-11-12T09:43:39Z",
+      "last_success": "2026-11-12T21:26:48Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
@@ -1354,37 +1402,47 @@
         "1.1.1.1": {
           "canonical_name": "a2047.api10.akamai.net",
           "ipv4": [
-            "23.66.3.72",
-            "23.66.3.75",
-            "23.66.3.77",
-            "23.66.3.78",
-            "23.66.3.79",
-            "23.66.3.84",
-            "23.66.3.86",
-            "23.66.3.89",
-            "23.66.3.92"
+            "23.200.156.207",
+            "23.200.156.208",
+            "23.200.156.209",
+            "23.200.156.210",
+            "23.200.156.211",
+            "23.200.156.212",
+            "23.200.156.213",
+            "23.200.156.215",
+            "23.200.156.216"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
           "canonical_name": "a2047.api10.akamai.net",
           "ipv4": [
-            "23.220.73.39",
-            "23.220.73.40",
-            "23.220.73.51",
-            "23.220.73.53",
-            "23.220.73.54",
-            "23.220.73.55",
-            "23.220.73.57",
-            "23.220.73.58",
-            "23.220.73.59"
+            "23.195.81.58",
+            "23.195.81.81",
+            "23.195.81.88",
+            "23.195.81.89",
+            "23.195.81.91",
+            "23.195.81.98",
+            "23.195.81.120",
+            "23.195.81.121",
+            "23.195.81.122"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.204 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
-          "ipv4": [],
-          "status": "TIMEOUT"
+          "canonical_name": "a2047.api10.akamai.net",
+          "ipv4": [
+            "23.192.223.196",
+            "23.192.223.197",
+            "23.192.223.198",
+            "23.192.223.200",
+            "23.192.223.204",
+            "23.192.223.205",
+            "23.192.223.206",
+            "23.192.223.207",
+            "23.192.223.208"
+          ],
+          "status": "OK"
         }
       },
       "safety_reason": null,
@@ -1430,74 +1488,93 @@
       "status": "expired"
     },
     "www.tiktok.com": {
-      "canonical_name": "a2047.api10.akamai.net",
+      "canonical_name": "a2047.api2.akamai.net",
       "consecutive_negative_checks": 0,
       "ever_validated": true,
       "expired_at": null,
       "first_seen": "2026-08-21T07:37:46Z",
       "hostname": "www.tiktok.com",
       "ipv4": [
-        "23.66.3.69",
-        "23.66.3.71",
-        "23.66.3.74",
-        "23.66.3.80",
-        "23.66.3.81",
-        "23.66.3.82",
-        "23.66.3.87",
-        "23.66.3.90",
-        "23.66.3.91",
-        "23.220.73.40",
-        "23.220.73.41",
-        "23.220.73.42",
-        "23.220.73.43",
-        "23.220.73.44",
-        "23.220.73.45",
-        "23.220.73.46",
-        "23.220.73.47",
-        "23.220.73.48"
+        "23.48.99.68",
+        "23.48.99.71",
+        "23.48.99.72",
+        "23.48.99.80",
+        "23.48.99.82",
+        "23.48.99.84",
+        "23.48.99.85",
+        "23.48.99.86",
+        "23.48.99.88",
+        "23.195.81.9",
+        "23.195.81.10",
+        "23.195.81.16",
+        "23.195.81.18",
+        "23.195.81.26",
+        "23.195.81.27",
+        "23.195.81.42",
+        "23.195.81.43",
+        "23.195.81.48",
+        "23.220.144.197",
+        "23.220.144.200",
+        "23.220.144.206",
+        "23.220.144.208",
+        "23.220.144.213",
+        "23.220.144.214",
+        "23.220.144.218",
+        "23.220.144.221",
+        "23.220.144.222"
       ],
-      "last_check": "2026-11-12T09:43:39Z",
+      "last_check": "2026-11-12T21:26:48Z",
       "last_negative": null,
       "last_result": "OK",
-      "last_success": "2026-11-12T09:43:39Z",
+      "last_success": "2026-11-12T21:26:48Z",
       "negative_observations": 0,
       "negative_since": null,
       "quarantined_at": null,
       "resolver_results": {
         "1.1.1.1": {
-          "canonical_name": "a2047.api10.akamai.net",
+          "canonical_name": "a2047.api3.akamai.net",
           "ipv4": [
-            "23.66.3.69",
-            "23.66.3.71",
-            "23.66.3.74",
-            "23.66.3.80",
-            "23.66.3.81",
-            "23.66.3.82",
-            "23.66.3.87",
-            "23.66.3.90",
-            "23.66.3.91"
+            "23.220.144.197",
+            "23.220.144.200",
+            "23.220.144.206",
+            "23.220.144.208",
+            "23.220.144.213",
+            "23.220.144.214",
+            "23.220.144.218",
+            "23.220.144.221",
+            "23.220.144.222"
           ],
           "status": "OK"
         },
         "8.8.8.8": {
-          "canonical_name": "a2047.api10.akamai.net",
+          "canonical_name": "a2047.api2.akamai.net",
           "ipv4": [
-            "23.220.73.40",
-            "23.220.73.41",
-            "23.220.73.42",
-            "23.220.73.43",
-            "23.220.73.44",
-            "23.220.73.45",
-            "23.220.73.46",
-            "23.220.73.47",
-            "23.220.73.48"
+            "23.195.81.9",
+            "23.195.81.10",
+            "23.195.81.16",
+            "23.195.81.18",
+            "23.195.81.26",
+            "23.195.81.27",
+            "23.195.81.42",
+            "23.195.81.43",
+            "23.195.81.48"
           ],
           "status": "OK"
         },
         "9.9.9.9": {
-          "detail": "The resolution lifetime expired after 4.204 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.; Server Do53:9.9.9.9@53 answered The DNS operation timed out.",
-          "ipv4": [],
-          "status": "TIMEOUT"
+          "canonical_name": "a2047.api2.akamai.net",
+          "ipv4": [
+            "23.48.99.68",
+            "23.48.99.71",
+            "23.48.99.72",
+            "23.48.99.80",
+            "23.48.99.82",
+            "23.48.99.84",
+            "23.48.99.85",
+            "23.48.99.86",
+            "23.48.99.88"
+          ],
+          "status": "OK"
         }
       },
       "safety_reason": null,
@@ -1508,6 +1585,6 @@
       "status": "active"
     }
   },
-  "updated_at": "2026-11-12T09:43:39Z",
+  "updated_at": "2026-11-12T21:26:48Z",
   "version": 2
 }
