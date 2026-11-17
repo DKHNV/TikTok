@@ -1,6 +1,5 @@
 developer-sg.tiktok.com
 drs.gw.us.tiktok.com
 e.tiktok.com
-egress.gw.us.tiktok.com
 info.tiktok.com
 wfa.tiktok.com

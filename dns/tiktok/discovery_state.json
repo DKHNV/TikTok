@@ -2,12 +2,12 @@
   "sources": {
     "certspotter": {
       "tiktok.com": {
-        "after": 18437516592,
+        "after": 18443827428,
         "caught_up": false,
-        "last_poll": "2026-11-17T10:37:33Z"
+        "last_poll": "2026-11-17T22:15:24Z"
       }
     }
   },
-  "updated_at": "2026-11-17T10:37:33Z",
+  "updated_at": "2026-11-17T22:15:24Z",
   "version": 2
 }
