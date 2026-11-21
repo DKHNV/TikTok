@@ -1,2 +1,1 @@
 developer-sg.tiktok.com
-egress.gw.us.tiktok.com
