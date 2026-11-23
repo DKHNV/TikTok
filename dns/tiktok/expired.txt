@@ -1,4 +1,5 @@
 drs.gw.us.tiktok.com
 e.tiktok.com
 info.tiktok.com
+partner-us.tiktok.com
 wfa.tiktok.com
