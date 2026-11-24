@@ -1,3 +1,4 @@
 abs-session.tiktok.com
+egress.gw.us.tiktok.com
 eu.tiktok.com
 mi-marketing.tiktok.com
